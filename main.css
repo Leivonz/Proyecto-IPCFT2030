@@ -1,3 +1,32 @@
-body{
-    
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #6c756b;
+}
+
+.menu {
+  width: 100%;
+  float: left;
+  text-align: right;
+}
+
+.menu ul li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+  margin: 0 25px 0 0;
+  color: #f2f4ff;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #f2f4ff;
+}
+
+.menu a:hover {
+  color: black;
+  transition: 0.5s;
 }
