@@ -13,6 +13,10 @@ body {
   text-align: right;
 }
 
+.menu ul {
+  margin-top: 35px;
+}
+
 .menu ul li {
   display: inline-block;
   list-style-type: none;
@@ -25,15 +29,53 @@ body {
 .menu a {
   text-decoration: none;
   color: #f2f4ff;
+  transition-duration: 0.4s;
 }
 
 .menu a:hover {
-  color: #dfd21b;
-  transition: 0.5s;
+  color: #f0b206;
+}
+
+.menu img {
+  width: 100px;
+  height: 100px;
+  float: left;
+  text-align: right;
+  display: flex;
+  transition-duration: 0.2s;
+  border-radius: 0.5rem;
+}
+
+.menu img:hover {
+  border-radius: 50px;
 }
 
 .title {
   text-transform: uppercase;
   text-align: center;
   color: #f2f4ff;
+}
+
+.access {
+  text-align: center;
+}
+
+.access button {
+  display: inline-block;
+  border-radius: 20px;
+  width: 400px;
+  height: 40px;
+  color: white;
+  background-color: #f0b206;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.access button:hover {
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cuerpo {
+  background-color: white;
 }
