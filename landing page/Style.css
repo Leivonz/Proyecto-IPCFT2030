@@ -49,5 +49,12 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
-      
+
+      .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        background-color: aliceblue;
+        width: max-content;
+      }
     
