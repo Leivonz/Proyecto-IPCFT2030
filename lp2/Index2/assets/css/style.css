@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#inicio {
   width: 100%;
   height: 100vh;
   background: url(../img/hero-bg.jpg) top center;
@@ -416,11 +416,11 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 @media (min-width: 1024px) {
-  #hero {
+  #inicio {
     background-attachment: fixed;
   }
 }
-#hero:before {
+#inicio:before {
   content: "";
   background: rgba(6, 12, 34, 0.8);
   position: absolute;
@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
 }
-#hero .hero-container {
+#inicio .hero-container {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -443,36 +443,36 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
 }
 @media (max-width: 991px) {
-  #hero .hero-container {
+  #inicio .hero-container {
     top: 70px;
   }
 }
-#hero h1 {
+#inicio h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
 }
-#hero h1 span {
+#inicio h1 span {
   color: #f82249;
 }
 @media (max-width: 991px) {
-  #hero h1 {
+  #inicio h1 {
     font-size: 34px;
   }
 }
-#hero p {
+#inicio p {
   color: #ebebeb;
   font-weight: 700;
   font-size: 20px;
 }
 @media (max-width: 991px) {
-  #hero p {
+  #hinicio p {
     font-size: 16px;
   }
 }
-#hero .play-btn {
+#inicio .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   overflow: hidden;
 }
-#hero .play-btn::after {
+#inicio .play-btn::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -495,7 +495,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 100;
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
-#hero .play-btn:before {
+#inicio .play-btn:before {
   content: "";
   position: absolute;
   width: 120px;
@@ -517,11 +517,11 @@ h1, h2, h3, h4, h5, h6 {
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
-#hero .play-btn:hover::after {
+#inicio .play-btn:hover::after {
   border-left: 15px solid #f82249;
   transform: scale(20);
 }
-#hero .play-btn:hover::before {
+#inicio .play-btn:hover::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -538,7 +538,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: none;
   border-radius: 0;
 }
-#hero .about-btn {
+#inicio .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -554,7 +554,7 @@ h1, h2, h3, h4, h5, h6 {
   animation-delay: 0.8s;
   border: 2px solid #f82249;
 }
-#hero .about-btn:hover {
+#inicio .about-btn:hover {
   background: #f82249;
   color: #fff;
 }
