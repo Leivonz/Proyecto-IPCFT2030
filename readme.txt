@@ -1,0 +1,1 @@
+abrir projecto: Proyecto-IPCFT2030\SERE_API\SERE_API.sln

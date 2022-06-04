@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SERE_WebApp/1.0.0": {
+        "runtime": {
+          "SERE_WebApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SERE_WebApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
