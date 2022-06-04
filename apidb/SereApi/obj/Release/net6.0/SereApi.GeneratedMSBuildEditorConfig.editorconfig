@@ -8,17 +8,9 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SereApi
 build_property.RootNamespace = SereApi
-<<<<<<< Updated upstream:SERE_API/obj/Debug/net6.0/SereApi.GeneratedMSBuildEditorConfig.editorconfig
-build_property.ProjectDir = C:\Users\Adolfo\Documents\Github\Proyecto-IPCFT2030\SERE\
-build_property.RazorLangVersion = 6.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Adolfo\Documents\Github\Proyecto-IPCFT2030\SERE
-=======
 build_property.ProjectDir = F:\IPCFT2030\web\apidb\SereApi\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = F:\IPCFT2030\web\apidb\SereApi
->>>>>>> Stashed changes:apidb/SereApi/obj/Debug/net6.0/SereApi.GeneratedMSBuildEditorConfig.editorconfig
 build_property._RazorSourceGeneratorDebug = 
