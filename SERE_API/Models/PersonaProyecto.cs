@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SereApi.Models
+namespace SERE_API.Models
 {
     public partial class PersonaProyecto
     {

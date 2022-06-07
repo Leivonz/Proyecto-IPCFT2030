@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SereApi.Models
+namespace SERE_API.Models
 {
     public partial class Organizacion
     {
         public Organizacion()
         {
+            Eventos = new HashSet<Evento>();
             OrganizacionOds = new HashSet<OrganizacionOd>();
             OrganizacionPersonas = new HashSet<OrganizacionPersona>();
             OrganizacionProyectos = new HashSet<OrganizacionProyecto>();
@@ -24,6 +25,7 @@ namespace SereApi.Models
         public virtual Estadoorganizacion? IdEstadoorganizacionNavigation { get; set; }
         public virtual Tipoorganizacion? IdTipoorganizacionNavigation { get; set; }
         public virtual Pai? PaisNavigation { get; set; }
+        public virtual ICollection<Evento> Eventos { get; set; }
         public virtual ICollection<OrganizacionOd> OrganizacionOds { get; set; }
         public virtual ICollection<OrganizacionPersona> OrganizacionPersonas { get; set; }
         public virtual ICollection<OrganizacionProyecto> OrganizacionProyectos { get; set; }

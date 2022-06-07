@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\IPCFT2030\\web\\SERE_WebApp\\SERE_WebApp.csproj": {}
+    "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\SERE_WebApp.csproj": {}
   },
   "projects": {
-    "F:\\IPCFT2030\\web\\SERE_WebApp\\SERE_WebApp.csproj": {
+    "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\SERE_WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\IPCFT2030\\web\\SERE_WebApp\\SERE_WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\SERE_WebApp.csproj",
         "projectName": "SERE_WebApp",
-        "projectPath": "F:\\IPCFT2030\\web\\SERE_WebApp\\SERE_WebApp.csproj",
-        "packagesPath": "C:\\Users\\chcra\\.nuget\\packages\\",
-        "outputPath": "F:\\IPCFT2030\\web\\SERE_WebApp\\obj\\",
+        "projectPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\SERE_WebApp.csproj",
+        "packagesPath": "C:\\Users\\Adolfo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\chcra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Adolfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

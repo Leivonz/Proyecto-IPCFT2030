@@ -3,13 +3,12 @@ using System.Collections.Generic;
 
 namespace SERE_API.Models
 {
-    public partial class PersonaOd
+    public partial class PersonaEvento
     {
-        public int IdPersonaOds { get; set; }
+        public int? IdEvento { get; set; }
         public int? IdPersona { get; set; }
-        public int? IdOds { get; set; }
 
-        public virtual Od? IdOdsNavigation { get; set; }
+        public virtual Evento? IdEventoNavigation { get; set; }
         public virtual Persona? IdPersonaNavigation { get; set; }
     }
 }

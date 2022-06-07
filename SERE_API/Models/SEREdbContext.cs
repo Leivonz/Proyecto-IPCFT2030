@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace SereApi.Models
+namespace SERE_API.Models
 {
     public partial class SEREdbContext : DbContext
     {
@@ -19,6 +19,7 @@ namespace SereApi.Models
         public virtual DbSet<Area> Areas { get; set; } = null!;
         public virtual DbSet<Estadoorganizacion> Estadoorganizacions { get; set; } = null!;
         public virtual DbSet<Estadoproyecto> Estadoproyectos { get; set; } = null!;
+        public virtual DbSet<Evento> Eventos { get; set; } = null!;
         public virtual DbSet<Od> Ods { get; set; } = null!;
         public virtual DbSet<Organizacion> Organizacions { get; set; } = null!;
         public virtual DbSet<OrganizacionOd> OrganizacionOds { get; set; } = null!;
@@ -26,10 +27,12 @@ namespace SereApi.Models
         public virtual DbSet<OrganizacionProyecto> OrganizacionProyectos { get; set; } = null!;
         public virtual DbSet<Pai> Pais { get; set; } = null!;
         public virtual DbSet<Persona> Personas { get; set; } = null!;
+        public virtual DbSet<PersonaEvento> PersonaEventos { get; set; } = null!;
         public virtual DbSet<PersonaOd> PersonaOds { get; set; } = null!;
         public virtual DbSet<PersonaProyecto> PersonaProyectos { get; set; } = null!;
         public virtual DbSet<Proyecto> Proyectos { get; set; } = null!;
         public virtual DbSet<ProyectoOd> ProyectoOds { get; set; } = null!;
+        public virtual DbSet<TipoEvento> TipoEventos { get; set; } = null!;
         public virtual DbSet<Tipoorganizacion> Tipoorganizacions { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -37,7 +40,7 @@ namespace SereApi.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=SEREdb;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=SEREdb;Trusted_Connection=True;");
             }
         }
 
@@ -46,7 +49,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Area>(entity =>
             {
                 entity.HasKey(e => e.IdArea)
-                    .HasName("PK__area__8A8C837B57579EC4");
+                    .HasName("PK__area__8A8C837BBD2D9CFB");
 
                 entity.ToTable("area");
 
@@ -61,7 +64,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Estadoorganizacion>(entity =>
             {
                 entity.HasKey(e => e.IdEstadoorganizacion)
-                    .HasName("PK__estadoor__EE6B54D45A66C560");
+                    .HasName("PK__estadoor__EE6B54D4778C1C57");
 
                 entity.ToTable("estadoorganizacion");
 
@@ -76,7 +79,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Estadoproyecto>(entity =>
             {
                 entity.HasKey(e => e.IdEstadoproyecto)
-                    .HasName("PK__estadopr__A2F4B2F509165564");
+                    .HasName("PK__estadopr__A2F4B2F5CDD84AD1");
 
                 entity.ToTable("estadoproyecto");
 
@@ -88,10 +91,65 @@ namespace SereApi.Models
                     .HasColumnName("nombre_estadoproyecto");
             });
 
+            modelBuilder.Entity<Evento>(entity =>
+            {
+                entity.HasKey(e => e.IdEvento)
+                    .HasName("PK__eventos__AF150CA54B4C46FF");
+
+                entity.ToTable("eventos");
+
+                entity.Property(e => e.IdEvento)
+                    .ValueGeneratedNever()
+                    .HasColumnName("id_evento");
+
+                entity.Property(e => e.CantCupos).HasColumnName("cant_cupos");
+
+                entity.Property(e => e.CostoEvento)
+                    .HasColumnType("money")
+                    .HasColumnName("costo_evento");
+
+                entity.Property(e => e.DescEvento)
+                    .HasMaxLength(255)
+                    .IsUnicode(false)
+                    .HasColumnName("desc_evento");
+
+                entity.Property(e => e.FechaEvento)
+                    .HasColumnType("date")
+                    .HasColumnName("fecha_evento");
+
+                entity.Property(e => e.IdOrganizacion).HasColumnName("id_organizacion");
+
+                entity.Property(e => e.IdTipoEvento).HasColumnName("id_tipo_evento");
+
+                entity.Property(e => e.NombreEvento)
+                    .HasMaxLength(60)
+                    .IsUnicode(false)
+                    .HasColumnName("nombre_evento");
+
+                entity.Property(e => e.OdsEvento).HasColumnName("ods_evento");
+
+                entity.HasOne(d => d.IdOrganizacionNavigation)
+                    .WithMany(p => p.Eventos)
+                    .HasForeignKey(d => d.IdOrganizacion)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__eventos__id_orga__6754599E");
+
+                entity.HasOne(d => d.IdTipoEventoNavigation)
+                    .WithMany(p => p.Eventos)
+                    .HasForeignKey(d => d.IdTipoEvento)
+                    .HasConstraintName("FK__eventos__id_tipo__66603565");
+
+                entity.HasOne(d => d.OdsEventoNavigation)
+                    .WithMany(p => p.Eventos)
+                    .HasForeignKey(d => d.OdsEvento)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__eventos__ods_eve__68487DD7");
+            });
+
             modelBuilder.Entity<Od>(entity =>
             {
                 entity.HasKey(e => e.IdOds)
-                    .HasName("PK__ods__6E0E20A48D97DC93");
+                    .HasName("PK__ods__6E0E20A47734A367");
 
                 entity.ToTable("ods");
 
@@ -118,7 +176,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Organizacion>(entity =>
             {
                 entity.HasKey(e => e.IdOrganizacion)
-                    .HasName("PK__organiza__B2D27FD1F3324A7F");
+                    .HasName("PK__organiza__B2D27FD1D1DE2A2E");
 
                 entity.ToTable("organizacion");
 
@@ -169,7 +227,7 @@ namespace SereApi.Models
             modelBuilder.Entity<OrganizacionOd>(entity =>
             {
                 entity.HasKey(e => e.IpOrganizacionOds)
-                    .HasName("PK__organiza__0B7626B0771DC94D");
+                    .HasName("PK__organiza__0B7626B0C15EB509");
 
                 entity.ToTable("organizacion_ods");
 
@@ -193,7 +251,7 @@ namespace SereApi.Models
             modelBuilder.Entity<OrganizacionPersona>(entity =>
             {
                 entity.HasKey(e => e.IdOrganizacionPersona)
-                    .HasName("PK__organiza__336A5FCECA164490");
+                    .HasName("PK__organiza__336A5FCE8D6AE01A");
 
                 entity.ToTable("organizacion_persona");
 
@@ -217,7 +275,7 @@ namespace SereApi.Models
             modelBuilder.Entity<OrganizacionProyecto>(entity =>
             {
                 entity.HasKey(e => e.IdOrganizacionProyecto)
-                    .HasName("PK__organiza__A55A992EA41A6C64");
+                    .HasName("PK__organiza__A55A992EC0DBC33F");
 
                 entity.ToTable("organizacion_proyecto");
 
@@ -241,7 +299,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Pai>(entity =>
             {
                 entity.HasKey(e => e.IdPais)
-                    .HasName("PK__pais__0941A3A75E1897EA");
+                    .HasName("PK__pais__0941A3A7CE4175A6");
 
                 entity.ToTable("pais");
 
@@ -256,7 +314,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Persona>(entity =>
             {
                 entity.HasKey(e => e.IdPersona)
-                    .HasName("PK__persona__228148B08BFA3B0B");
+                    .HasName("PK__persona__228148B031CF55C0");
 
                 entity.ToTable("persona");
 
@@ -283,10 +341,31 @@ namespace SereApi.Models
                     .HasColumnName("nombre");
             });
 
+            modelBuilder.Entity<PersonaEvento>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.ToTable("Persona_eventos");
+
+                entity.Property(e => e.IdEvento).HasColumnName("id_evento");
+
+                entity.Property(e => e.IdPersona).HasColumnName("id_persona");
+
+                entity.HasOne(d => d.IdEventoNavigation)
+                    .WithMany()
+                    .HasForeignKey(d => d.IdEvento)
+                    .HasConstraintName("FK__Persona_e__id_ev__6A30C649");
+
+                entity.HasOne(d => d.IdPersonaNavigation)
+                    .WithMany()
+                    .HasForeignKey(d => d.IdPersona)
+                    .HasConstraintName("FK__Persona_e__id_pe__6B24EA82");
+            });
+
             modelBuilder.Entity<PersonaOd>(entity =>
             {
                 entity.HasKey(e => e.IdPersonaOds)
-                    .HasName("PK__persona___C161B8B2E46AFA8A");
+                    .HasName("PK__persona___C161B8B232C1260D");
 
                 entity.ToTable("persona_ods");
 
@@ -310,7 +389,7 @@ namespace SereApi.Models
             modelBuilder.Entity<PersonaProyecto>(entity =>
             {
                 entity.HasKey(e => e.IdOrganizacionProyecto)
-                    .HasName("PK__persona___A55A992E3C0D3A2B");
+                    .HasName("PK__persona___A55A992ED23A5D02");
 
                 entity.ToTable("persona_proyecto");
 
@@ -334,7 +413,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Proyecto>(entity =>
             {
                 entity.HasKey(e => e.IdProyecto)
-                    .HasName("PK__proyecto__F38AD81D8181B3D5");
+                    .HasName("PK__proyecto__F38AD81D8FA9ABFD");
 
                 entity.ToTable("proyecto");
 
@@ -395,7 +474,7 @@ namespace SereApi.Models
             modelBuilder.Entity<ProyectoOd>(entity =>
             {
                 entity.HasKey(e => e.IdProyectoOds)
-                    .HasName("PK__proyecto__E0CD62A12588B75D");
+                    .HasName("PK__proyecto__E0CD62A1B10A07B4");
 
                 entity.ToTable("proyecto_ods");
 
@@ -416,10 +495,27 @@ namespace SereApi.Models
                     .HasConstraintName("FK_proyecto_ods");
             });
 
+            modelBuilder.Entity<TipoEvento>(entity =>
+            {
+                entity.HasKey(e => e.IdEvento)
+                    .HasName("PK__tipo_eve__AF150CA55D1403C4");
+
+                entity.ToTable("tipo_evento");
+
+                entity.Property(e => e.IdEvento)
+                    .ValueGeneratedNever()
+                    .HasColumnName("id_evento");
+
+                entity.Property(e => e.NombreTipo)
+                    .HasMaxLength(20)
+                    .IsUnicode(false)
+                    .HasColumnName("nombre_tipo");
+            });
+
             modelBuilder.Entity<Tipoorganizacion>(entity =>
             {
                 entity.HasKey(e => e.IdTipoorganizacion)
-                    .HasName("PK__tipoorga__059095B8DB63071C");
+                    .HasName("PK__tipoorga__059095B81ABF6C3D");
 
                 entity.ToTable("tipoorganizacion");
 
