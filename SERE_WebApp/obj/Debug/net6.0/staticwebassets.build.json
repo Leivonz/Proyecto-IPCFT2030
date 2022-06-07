@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zUdK1E2VS61E/tFt6y0V3GU6PkGDSqIqR35tVFqIdDk=",
+  "Hash": "CyS1/ssvCwUFFNcZt87FxCNQaS1z+2JUDXWgqZ6aVOE=",
   "Source": "SERE_WebApp",
   "BasePath": "_content/SERE_WebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SERE_WebApp\\wwwroot",
       "Source": "SERE_WebApp",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SERE_WebApp.styles.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SERE_WebApp.styles.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "SERE_WebApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SERE_WebApp.styles.css"
+      "OriginalItemSpec": "F:\\IPCFT2030\\web\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SERE_WebApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SERE_WebApp.bundle.scp.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SERE_WebApp.bundle.scp.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "SERE_WebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SERE_WebApp.bundle.scp.css"
+      "OriginalItemSpec": "F:\\IPCFT2030\\web\\SERE_WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SERE_WebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\css\\site.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\css\\site.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\favicon.ico",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\favicon.ico",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\about-bg.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\about-bg.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/about-bg.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\apple-touch-icon.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\apple-touch-icon.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/apple-touch-icon.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\img\\apple-touch-icon.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\favicon.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\favicon.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/favicon.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\gallery\\1.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\gallery\\1.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/gallery/1.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gallery\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\gallery\\2.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\gallery\\2.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/gallery/2.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gallery\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\gallery\\3.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\gallery\\3.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/gallery/3.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gallery\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\gallery\\4.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\gallery\\4.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/gallery/4.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gallery\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\gallery\\5.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\gallery\\5.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/gallery/5.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gallery\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\gallery\\6.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\gallery\\6.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/gallery/6.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gallery\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\gallery\\7.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\gallery\\7.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/gallery/7.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gallery\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\gallery\\8.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\gallery\\8.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/gallery/8.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gallery\\8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\hero-bg.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\hero-bg.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/hero-bg.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hero-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\hotels\\1.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\hotels\\1.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/hotels/1.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hotels\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\hotels\\2.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\hotels\\2.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/hotels/2.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hotels\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\hotels\\3.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\hotels\\3.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/hotels/3.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\hotels\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\logo sere.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\logo sere.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/logo sere.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo sere.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\speakers\\1.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\speakers\\1.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/speakers/1.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\speakers\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\speakers\\2.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\speakers\\2.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/speakers/2.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\img\\speakers\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\speakers\\3.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\speakers\\3.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/speakers/3.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\img\\speakers\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\speakers\\4.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\speakers\\4.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/speakers/4.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\img\\speakers\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\speakers\\5.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\speakers\\5.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/speakers/5.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\speakers\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\speakers\\6.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\speakers\\6.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/speakers/6.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\speakers\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\speakers\\bizpage-preview.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\speakers\\bizpage-preview.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/speakers/bizpage-preview.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\img\\speakers\\bizpage-preview.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\subscribe-bg.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\subscribe-bg.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/subscribe-bg.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\subscribe-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\supporters\\1.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\supporters\\1.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/supporters/1.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supporters\\1.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\supporters\\2.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\supporters\\2.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/supporters/2.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supporters\\2.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\supporters\\3.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\supporters\\3.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/supporters/3.png",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supporters\\3.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\supporters\\4.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\supporters\\4.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/supporters/4.png",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supporters\\4.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\supporters\\5.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\supporters\\5.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/supporters/5.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supporters\\5.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\supporters\\6.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\supporters\\6.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/supporters/6.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supporters\\6.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\supporters\\7.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\supporters\\7.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/supporters/7.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supporters\\7.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\supporters\\8.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\supporters\\8.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/supporters/8.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\supporters\\8.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\1.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\1.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/venue-gallery/1.jpg",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\img\\venue-gallery\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\2.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\2.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/venue-gallery/2.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\venue-gallery\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\3.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\3.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/venue-gallery/3.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\venue-gallery\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\4.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\4.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/venue-gallery/4.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\venue-gallery\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\5.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\5.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/venue-gallery/5.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\venue-gallery\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\6.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\6.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/venue-gallery/6.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\venue-gallery\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\7.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\7.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/venue-gallery/7.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\venue-gallery\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\8.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\venue-gallery\\8.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/venue-gallery/8.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\venue-gallery\\8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\img\\venue-info-bg.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\img\\venue-info-bg.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "img/venue-info-bg.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\venue-info-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\1s.jpeg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\1s.jpeg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/1s.jpeg",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\1s.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\2s.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\2s.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/2s.jpg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\2s.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\4s.jpg",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\4s.jpg",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/4s.jpg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\4s.jpg"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\brand.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\brand.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/brand.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\brand.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\help.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\help.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/help.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\help.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\logo sere.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\logo sere.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/logo sere.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\logo sere.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS1.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS1.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS1.png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS1.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS10.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS10.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS10.png",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS10.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS11.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS11.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS11.png",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS11.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS12.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS12.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS12.png",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS12.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS13.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS13.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS13.png",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS13.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS14.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS14.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS14.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS14.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS15.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS15.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS15.png",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS15.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS16.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS16.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS16.png",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS16.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS17.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS17.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS17.png",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS17.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS2.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS2.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS2.png",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS2.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS3.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS3.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS3.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS3.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS4.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS4.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS4.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS4.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS5.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS5.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS5.png",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS5.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS6.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS6.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS6.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS6.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS7.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS7.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS7.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS7.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS8.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS8.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS8.png",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS8.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS9.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS imagenes\\ODS9.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS imagenes/ODS9.png",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS imagenes\\ODS9.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS-cast.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS-cast.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS-cast.png",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS-cast.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS-círculo.png",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\imgproyecto\\ODS-círculo.png",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "imgproyecto/ODS-círculo.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\imgproyecto\\ODS-círculo.png"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\js\\site.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\js\\site.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\aos\\aos.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\aos\\aos.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/aos/aos.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\aos\\aos.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\aos\\aos.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\aos\\aos.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/aos/aos.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\aos\\aos.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.js",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap-icons/bootstrap-icons.css",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.json",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.json",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap-icons/bootstrap-icons.json",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.json"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap-icons/fonts/bootstrap-icons.woff",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap-icons/fonts/bootstrap-icons.woff2",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\bootstrap-icons\\index.html",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\bootstrap-icons\\index.html",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/bootstrap-icons/index.html",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap-icons\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\glightbox\\css\\glightbox.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\glightbox\\css\\glightbox.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/glightbox/css/glightbox.css",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\glightbox\\css\\glightbox.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\glightbox\\css\\glightbox.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\glightbox\\css\\glightbox.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/glightbox/css/glightbox.min.css",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\glightbox\\css\\glightbox.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\glightbox\\js\\glightbox.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\glightbox\\js\\glightbox.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/glightbox/js/glightbox.js",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\glightbox\\js\\glightbox.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\glightbox\\js\\glightbox.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\glightbox\\js\\glightbox.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/glightbox/js/glightbox.min.js",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\glightbox\\js\\glightbox.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\php-email-form\\validate.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\php-email-form\\validate.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/php-email-form/validate.js",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\php-email-form\\validate.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\purecounter\\purecounter.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\purecounter\\purecounter.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/purecounter/purecounter.js",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\purecounter\\purecounter.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\purecounter\\purecounter.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\purecounter\\purecounter.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/purecounter/purecounter.js.map",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\purecounter\\purecounter.js.map"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\swiper\\swiper-bundle.min.css",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\swiper\\swiper-bundle.min.css",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/swiper/swiper-bundle.min.css",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\swiper\\swiper-bundle.min.css"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\swiper\\swiper-bundle.min.js",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\swiper\\swiper-bundle.min.js",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/swiper/swiper-bundle.min.js",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\swiper\\swiper-bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\lib\\swiper\\swiper-bundle.min.js.map",
+      "Identity": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\lib\\swiper\\swiper-bundle.min.js.map",
       "SourceId": "SERE_WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE_WebApp\\wwwroot\\",
+      "ContentRoot": "F:\\IPCFT2030\\web\\SERE_WebApp\\wwwroot\\",
       "BasePath": "_content/SERE_WebApp",
       "RelativePath": "lib/swiper/swiper-bundle.min.js.map",
       "AssetKind": "All",
