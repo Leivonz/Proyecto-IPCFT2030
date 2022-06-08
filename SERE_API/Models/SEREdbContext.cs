@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace SERE_API.Models
+namespace SereApi.Models
 {
     public partial class SEREdbContext : DbContext
     {

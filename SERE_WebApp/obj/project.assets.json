@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\SERE_WebApp.csproj",
-      "projectName": "SERE_WebApp",
-      "projectPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\SERE_WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\SereWebApp.csproj",
+      "projectName": "SereWebApp",
+      "projectPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\SereWebApp.csproj",
       "packagesPath": "C:\\Users\\Adolfo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\obj\\",
       "projectStyle": "PackageReference",

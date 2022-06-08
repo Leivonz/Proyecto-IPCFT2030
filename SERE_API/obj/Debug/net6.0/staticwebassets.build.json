@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "hL+fRLykodyMgPLYVBspNWYYmv9dd3p2W/WVQ6AswPo=",
-  "Source": "SERE_API",
-  "BasePath": "_content/SERE_API",
+  "Hash": "IE1lMS27oEVx3Kd1PvLf0yX6GwoDwzgQxnDNxyKdKpY=",
+  "Source": "SereApi",
+  "BasePath": "_content/SereApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

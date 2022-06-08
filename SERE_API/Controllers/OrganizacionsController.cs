@@ -24,10 +24,10 @@ namespace SereApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Organizacion>>> GetOrganizacions()
         {
-          if (_context.Organizacions == null)
-          {
-              return NotFound();
-          }
+            if (_context.Organizacions == null)
+            {
+                return NotFound();
+            }
             return await _context.Organizacions.ToListAsync();
         }
 
@@ -35,10 +35,10 @@ namespace SereApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Organizacion>> GetOrganizacion(int id)
         {
-          if (_context.Organizacions == null)
-          {
-              return NotFound();
-          }
+            if (_context.Organizacions == null)
+            {
+                return NotFound();
+            }
             var organizacion = await _context.Organizacions.FindAsync(id);
 
             if (organizacion == null)
@@ -85,10 +85,10 @@ namespace SereApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Organizacion>> PostOrganizacion(Organizacion organizacion)
         {
-          if (_context.Organizacions == null)
-          {
-              return Problem("Entity set 'SEREdbContext.Organizacions'  is null.");
-          }
+            if (_context.Organizacions == null)
+            {
+                return Problem("Entity set 'SEREdbContext.Organizacions'  is null.");
+            }
             _context.Organizacions.Add(organizacion);
             await _context.SaveChangesAsync();
 

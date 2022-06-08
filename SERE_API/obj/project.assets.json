@@ -9604,9 +9604,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_API\\SERE_API.csproj",
-      "projectName": "SERE_API",
-      "projectPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_API\\SERE_API.csproj",
+      "projectUniqueName": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_API\\SereApi.csproj",
+      "projectName": "SereApi",
+      "projectPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_API\\SereApi.csproj",
       "packagesPath": "C:\\Users\\Adolfo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_API\\obj\\",
       "projectStyle": "PackageReference",

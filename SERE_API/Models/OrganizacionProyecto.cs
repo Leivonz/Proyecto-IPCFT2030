@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SERE_API.Models
+namespace SereApi.Models
 {
     public partial class OrganizacionProyecto
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE\\SereApi.csproj": {}
+    "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_API\\SereApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE\\SereApi.csproj": {
+    "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_API\\SereApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE\\SereApi.csproj",
+        "projectUniqueName": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_API\\SereApi.csproj",
         "projectName": "SereApi",
-        "projectPath": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE\\SereApi.csproj",
+        "projectPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_API\\SereApi.csproj",
         "packagesPath": "C:\\Users\\Adolfo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adolfo\\Documents\\Github\\Proyecto-IPCFT2030\\SERE\\obj\\",
+        "outputPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adolfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
