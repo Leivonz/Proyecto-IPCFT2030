@@ -51,21 +51,38 @@ namespace SereApi.Controllers
 
         // GET: api/TipoEventoes/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<TipoEvento>> GetTipoEvento(int id)
+        public async Task<IActionResult> GetTipoEvento(int id)
         {
-          if (_context.TipoEventos == null)
-          {
-              return NotFound();
-          }
-            var tipoEvento = await _context.TipoEventos.FindAsync(id);
-
-            if (tipoEvento == null)
+            Response response = new();
+            try
             {
-                return NotFound();
-            }
+                if (_context.TipoEventos == null)
+                {
+                    response.Message = "No se encuentran tipos de eventos";
+                    return NotFound(response);
+                }
+                var tipo = await _context.TipoEventos.FindAsync(id); ;
+                if (tipo == null)
+                {
+                    response.Message = $"Tipo evento con id: {id} no encontrado";
+                    return NotFound(response);
+                }
+                if (tipo!=null)
+                {
+                    response.Sucess = true;
+                    response.Data = tipo;
 
-            return tipoEvento;
+                }
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.ToString();
+                return BadRequest(response);
+            }
         }
+
+
 
         // PUT: api/TipoEventoes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
