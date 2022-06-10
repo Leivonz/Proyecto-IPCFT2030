@@ -117,36 +117,45 @@ namespace SereApi.Controllers
         // POST: api/Countries
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Country>> PostCountry(Country country)
+        public async Task<ActionResult<Country>> PostCountry(String country)
         {
-          if (_context.Countries == null)
-          {
-              return Problem("Entity set 'SereDbContext.Countries'  is null.");
-          }
-            _context.Countries.Add(country);
+            Response response = new();
+            if (_context.Countries == null)
+            {
+                //return Problem("Entity set 'SereDbContext.Countries'  is null.");
+                response.Message = "Table 'Countries' doesn't exist";
+                return NotFound(response);
+            }
+            Country country1 = new();
+            country1.NameCountry = country;
+            _context.Countries.Add(country1);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetCountry", new { id = country.IdCountry }, country);
+            response.Success = true;
+            return Ok(response);
         }
 
         // DELETE: api/Countries/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCountry(int id)
         {
+            Response response = new();
             if (_context.Countries == null)
             {
-                return NotFound();
+                response.Message = "Table 'Country' doesn't exist";
+                return BadRequest(response);
+                   
             }
             var country = await _context.Countries.FindAsync(id);
             if (country == null)
             {
-                return NotFound();
+                response.Message = $"No country with id: {id}";
+                return BadRequest(response);
             }
 
             _context.Countries.Remove(country);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            //TODO: QUESTION
+            return Ok(response.Message);
         }
 
         private bool CountryExists(int id)
