@@ -31,9 +31,9 @@ namespace SereApi.Controllers
                 var PersonEvents = await _context.PersonEvents.Select(x => new
                 {
                     id = x.IdPersonEvent,
-                    idPerson=x.IdPerson,
+                    idPerson = x.IdPerson,
                     idEvent = x.IdEvent
-                    
+
                 }).ToListAsync();
                 if (PersonEvents != null)
                 {
@@ -122,10 +122,10 @@ namespace SereApi.Controllers
         [HttpPost]
         public async Task<ActionResult<PersonEvent>> PostPersonEvent(PersonEvent personEvent)
         {
-          if (_context.PersonEvents == null)
-          {
-              return Problem("Entity set 'SereDbContext.PersonEvents'  is null.");
-          }
+            if (_context.PersonEvents == null)
+            {
+                return Problem("Entity set 'SereDbContext.PersonEvents'  is null.");
+            }
             _context.PersonEvents.Add(personEvent);
             await _context.SaveChangesAsync();
 
@@ -136,20 +136,25 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePersonEvent(int id)
         {
+            Response response = new();
             if (_context.PersonEvents == null)
             {
-                return NotFound();
+                response.Message = "Table 'PersonEvent' doesn't exist";
+                return BadRequest(response);
             }
             var personEvent = await _context.PersonEvents.FindAsync(id);
             if (personEvent == null)
             {
-                return NotFound();
+                response.Message = $"No PersonEvent with id: {id}";
+                return BadRequest(response);
             }
 
             _context.PersonEvents.Remove(personEvent);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            response.Success = true;
+            response.Message = $"Successfully deleted PersonEvent with id: {id}";
+            response.Data = personEvent;
+            return Ok(response);
         }
 
         private bool PersonEventExists(int id)

@@ -134,20 +134,26 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteOrganizationObjective(int id)
         {
+            Response response = new();
             if (_context.OrganizationObjectives == null)
             {
-                return NotFound();
+                response.Message = "Table 'OrganizationObjective' doesn't exist";
+                return BadRequest(response);
             }
             var organizationObjective = await _context.OrganizationObjectives.FindAsync(id);
             if (organizationObjective == null)
             {
-                return NotFound();
+                response.Message = $"No organization objective with id: {id}";
+                return BadRequest(response);
             }
 
             _context.OrganizationObjectives.Remove(organizationObjective);
             await _context.SaveChangesAsync();
+            response.Success = true;
+            response.Message = $"Successfully deleted organization objective with id: {id}";
+            response.Data = organizationObjective;
+            return Ok(response);
 
-            return NoContent();
         }
 
         private bool OrganizationObjectiveExists(int id)

@@ -120,10 +120,10 @@ namespace SereApi.Controllers
         [HttpPost]
         public async Task<ActionResult<ProjectStatus>> PostProjectStatus(ProjectStatus projectStatus)
         {
-          if (_context.ProjectStatuses == null)
-          {
-              return Problem("Entity set 'SereDbContext.ProjectStatuses'  is null.");
-          }
+            if (_context.ProjectStatuses == null)
+            {
+                return Problem("Entity set 'SereDbContext.ProjectStatuses'  is null.");
+            }
             _context.ProjectStatuses.Add(projectStatus);
             await _context.SaveChangesAsync();
 
@@ -134,20 +134,25 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProjectStatus(int id)
         {
+            Response response = new();
             if (_context.ProjectStatuses == null)
             {
-                return NotFound();
+                response.Message = "Table 'Project Status' doesn't exist";
+                return BadRequest(response);
             }
             var projectStatus = await _context.ProjectStatuses.FindAsync(id);
             if (projectStatus == null)
             {
-                return NotFound();
+                response.Message = $"No Project Status with id: {id}";
+                return BadRequest(response);
             }
 
             _context.ProjectStatuses.Remove(projectStatus);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            response.Success = true;
+            response.Message = $"Successfully deleted ProjectStatus with id: {id}";
+            response.Data = projectStatus;
+            return Ok(response);
         }
 
         private bool ProjectStatusExists(int id)

@@ -55,10 +55,10 @@ namespace SereApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<PersonProject>> GetPersonProject(int id)
         {
-          if (_context.PersonProjects == null)
-          {
-              return NotFound();
-          }
+            if (_context.PersonProjects == null)
+            {
+                return NotFound();
+            }
             var personProject = await _context.PersonProjects.FindAsync(id);
 
             if (personProject == null)
@@ -105,10 +105,10 @@ namespace SereApi.Controllers
         [HttpPost]
         public async Task<ActionResult<PersonProject>> PostPersonProject(PersonProject personProject)
         {
-          if (_context.PersonProjects == null)
-          {
-              return Problem("Entity set 'SereDbContext.PersonProjects'  is null.");
-          }
+            if (_context.PersonProjects == null)
+            {
+                return Problem("Entity set 'SereDbContext.PersonProjects'  is null.");
+            }
             _context.PersonProjects.Add(personProject);
             await _context.SaveChangesAsync();
 
@@ -119,20 +119,25 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePersonProject(int id)
         {
+            Response response = new();
             if (_context.PersonProjects == null)
             {
-                return NotFound();
+                response.Message = "Table 'PersonProject' doesn't exist";
+                return BadRequest(response);
             }
             var personProject = await _context.PersonProjects.FindAsync(id);
             if (personProject == null)
             {
-                return NotFound();
+                response.Message = $"No PersonProject with id: {id}";
+                return BadRequest(response);
             }
 
             _context.PersonProjects.Remove(personProject);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            response.Success = true;
+            response.Message = $"Successfully deleted PersonProject with id: {id}";
+            response.Data = personProject;
+            return Ok(response);
         }
 
         private bool PersonProjectExists(int id)

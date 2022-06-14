@@ -120,10 +120,10 @@ namespace SereApi.Controllers
         [HttpPost]
         public async Task<ActionResult<OrganizationType>> PostOrganizationType(OrganizationType organizationType)
         {
-          if (_context.OrganizationTypes == null)
-          {
-              return Problem("Entity set 'SereDbContext.OrganizationTypes'  is null.");
-          }
+            if (_context.OrganizationTypes == null)
+            {
+                return Problem("Entity set 'SereDbContext.OrganizationTypes'  is null.");
+            }
             _context.OrganizationTypes.Add(organizationType);
             await _context.SaveChangesAsync();
 
@@ -134,20 +134,25 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteOrganizationType(int id)
         {
+            Response response = new();
             if (_context.OrganizationTypes == null)
             {
-                return NotFound();
+                response.Message = "Table 'OrganizationType' doesn't exist";
+                return BadRequest(response);
             }
             var organizationType = await _context.OrganizationTypes.FindAsync(id);
             if (organizationType == null)
             {
-                return NotFound();
+                response.Message = $"No OrganizationType with id: {id}";
+                return BadRequest(response);
             }
 
             _context.OrganizationTypes.Remove(organizationType);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            response.Success = true;
+            response.Message = $"Successfully deleted OrganizationType with id: {id}";
+            response.Data = organizationType;
+            return Ok(response);
         }
 
         private bool OrganizationTypeExists(int id)

@@ -117,36 +117,50 @@ namespace SereApi.Controllers
         // POST: api/Countries
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Country>> PostCountry(Country country)
+        public async Task<ActionResult<Country>> PostCountry(String NameCountry)
         {
-          if (_context.Countries == null)
-          {
-              return Problem("Entity set 'SereDbContext.Countries'  is null.");
-          }
+            Response response = new();
+            if (_context.Countries == null)
+            {
+                //return Problem("Entity set 'SereDbContext.Countries'  is null.");
+                response.Message = "Table 'Countries' doesn't exist";
+                return NotFound(response);
+            }
+            Country country = new();
+            country.NameCountry = NameCountry;
+            //TODO: Prevent save if country already exists
             _context.Countries.Add(country);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetCountry", new { id = country.IdCountry }, country);
+            response.Success = true;
+            response.Message = "Succesfully saved";
+            response.Data = NameCountry;
+            return Ok(response);
         }
 
         // DELETE: api/Countries/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCountry(int id)
         {
+            Response response = new();
             if (_context.Countries == null)
             {
-                return NotFound();
+                response.Message = "Table 'Country' doesn't exist";
+                return NotFound(response);
+                   
             }
             var country = await _context.Countries.FindAsync(id);
             if (country == null)
             {
-                return NotFound();
+                response.Message = $"No country with id: {id}";
+                return NotFound(response);
             }
 
             _context.Countries.Remove(country);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            response.Success = true;
+            response.Message = $"Successfully deleted country with id: {id}";
+            response.Data = country;
+            return Ok(response);
         }
 
         private bool CountryExists(int id)

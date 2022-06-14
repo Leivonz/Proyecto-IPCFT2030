@@ -96,10 +96,10 @@ namespace SereApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Event>> PostEvent(Event @event)
         {
-          if (_context.Events == null)
-          {
-              return Problem("Entity set 'SereDbContext.Events'  is null.");
-          }
+            if (_context.Events == null)
+            {
+                return Problem("Entity set 'SereDbContext.Events'  is null.");
+            }
             _context.Events.Add(@event);
             await _context.SaveChangesAsync();
 
@@ -110,20 +110,25 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEvent(int id)
         {
+            Response response = new();
             if (_context.Events == null)
             {
-                return NotFound();
+                response.Message = "Table 'Events' doesn't exist";
+                return BadRequest(response);
             }
             var @event = await _context.Events.FindAsync(id);
             if (@event == null)
             {
-                return NotFound();
+                response.Message = $"No Event with id: {id}";
+                return BadRequest(response);
             }
 
             _context.Events.Remove(@event);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            response.Success = true;
+            response.Message = $"Successfully deleted event with id: {id}";
+            response.Data = @event;
+            return Ok(response);
         }
 
         private bool EventExists(int id)
