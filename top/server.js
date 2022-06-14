@@ -31,13 +31,14 @@ http
       const fileStream = fs.createReadStream(reqPath, "UTF-8");
 
       res.writeHead(200, { "Content-Type" : "image/jpg" });
+      res.end(data);
       fileStream.pipe(res);
     } else if (req.url.match(/.js$/)) {
       //cargar javascript
       const reqPath = path.join(__dirname, "public", req.url);
       const fileStream = fs.createReadStream(reqPath, "UTF-8");
 
-      res.writeHead(200, { "Content-Type" : "main.js" });
+      res.writeHead(200, { "Content-Type" : "js/main.js" });
       fileStream.pipe(res);
     } else {
       res.writeHead(404, { "Content-Type" : "text/plain" });
