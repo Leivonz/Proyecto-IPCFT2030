@@ -121,10 +121,10 @@ namespace SereApi.Controllers
         [HttpPost]
         public async Task<ActionResult<OrganizationProject>> PostOrganizationProject(OrganizationProject organizationProject)
         {
-          if (_context.OrganizationProjects == null)
-          {
-              return Problem("Entity set 'SereDbContext.OrganizationProjects'  is null.");
-          }
+            if (_context.OrganizationProjects == null)
+            {
+                return Problem("Entity set 'SereDbContext.OrganizationProjects'  is null.");
+            }
             _context.OrganizationProjects.Add(organizationProject);
             await _context.SaveChangesAsync();
 
@@ -135,20 +135,25 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteOrganizationProject(int id)
         {
+            Response response = new();
             if (_context.OrganizationProjects == null)
             {
-                return NotFound();
+                response.Message = "Table 'OrganizationProject' doesn't exist";
+                return BadRequest(response);
             }
             var organizationProject = await _context.OrganizationProjects.FindAsync(id);
             if (organizationProject == null)
             {
-                return NotFound();
+                response.Message = $"No OrganizationProject with id: {id}";
+                return BadRequest(response);
             }
 
             _context.OrganizationProjects.Remove(organizationProject);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            response.Success = true;
+            response.Message = $"Successfully deleted OrganizationProject with id: {id}";
+            response.Data = organizationProject;
+            return Ok(response);
         }
 
         private bool OrganizationProjectExists(int id)

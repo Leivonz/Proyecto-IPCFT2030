@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumnos\\Desktop\\Nueva carpeta (2)\\Proyecto-IPCFT2030\\SereApi\\SereApi\\SereApi.csproj": {}
+    "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SereApi\\SereApi\\SereApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumnos\\Desktop\\Nueva carpeta (2)\\Proyecto-IPCFT2030\\SereApi\\SereApi\\SereApi.csproj": {
+    "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SereApi\\SereApi\\SereApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumnos\\Desktop\\Nueva carpeta (2)\\Proyecto-IPCFT2030\\SereApi\\SereApi\\SereApi.csproj",
+        "projectUniqueName": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SereApi\\SereApi\\SereApi.csproj",
         "projectName": "SereApi",
-        "projectPath": "C:\\Users\\Alumnos\\Desktop\\Nueva carpeta (2)\\Proyecto-IPCFT2030\\SereApi\\SereApi\\SereApi.csproj",
-        "packagesPath": "C:\\Users\\Alumnos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumnos\\Desktop\\Nueva carpeta (2)\\Proyecto-IPCFT2030\\SereApi\\SereApi\\obj\\",
+        "projectPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SereApi\\SereApi\\SereApi.csproj",
+        "packagesPath": "C:\\Users\\Adolfo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SereApi\\SereApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alumnos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adolfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

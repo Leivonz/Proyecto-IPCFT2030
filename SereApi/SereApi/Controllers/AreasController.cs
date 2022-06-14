@@ -134,20 +134,25 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteArea(int id)
         {
+            Response response = new();
             if (_context.Areas == null)
             {
-                return NotFound();
+                response.Message = "Table 'Area' doesn't exist";
+                return BadRequest(response);
             }
             var area = await _context.Areas.FindAsync(id);
             if (area == null)
             {
-                return NotFound();
+                response.Message = $"No Area with id: {id}";
+                return BadRequest(response);
             }
 
             _context.Areas.Remove(area);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            response.Success = true;
+            response.Message = $"Successfully deleted area with id: {id}";
+            response.Data = area;
+            return Ok(response);
         }
 
         private bool AreaExists(int id)

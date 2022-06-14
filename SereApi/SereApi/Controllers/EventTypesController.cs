@@ -119,10 +119,10 @@ namespace SereApi.Controllers
         [HttpPost]
         public async Task<ActionResult<EventType>> PostEventType(EventType eventType)
         {
-          if (_context.EventTypes == null)
-          {
-              return Problem("Entity set 'SereDbContext.EventTypes'  is null.");
-          }
+            if (_context.EventTypes == null)
+            {
+                return Problem("Entity set 'SereDbContext.EventTypes'  is null.");
+            }
             _context.EventTypes.Add(eventType);
             await _context.SaveChangesAsync();
 
@@ -133,20 +133,25 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEventType(int id)
         {
+            Response response = new();
             if (_context.EventTypes == null)
             {
-                return NotFound();
+                response.Message = "Table 'Event Type' doesn't exist";
+                return BadRequest(response);
             }
             var eventType = await _context.EventTypes.FindAsync(id);
             if (eventType == null)
             {
-                return NotFound();
+                response.Message = $"No Event Type with id: {id}";
+                return BadRequest(response);
             }
 
             _context.EventTypes.Remove(eventType);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            response.Success = true;
+            response.Message = $"Successfully deleted event type with id: {id}";
+            response.Data = eventType;
+            return Ok(response);
         }
 
         private bool EventTypeExists(int id)

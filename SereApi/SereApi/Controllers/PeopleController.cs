@@ -135,20 +135,25 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePerson(int id)
         {
+            Response response = new();
             if (_context.People == null)
             {
-                return NotFound();
+                response.Message = "Table 'Person' doesn't exist";
+                return BadRequest(response);
             }
             var person = await _context.People.FindAsync(id);
             if (person == null)
             {
-                return NotFound();
+                response.Message = $"No Person with id: {id}";
+                return BadRequest(response);
             }
 
             _context.People.Remove(person);
             await _context.SaveChangesAsync();
-
-            return NoContent();
+            response.Success = true;
+            response.Message = $"Successfully deleted Person with id: {id}";
+            response.Data = person;
+            return Ok(response);
         }
 
         private bool PersonExists(int id)

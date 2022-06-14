@@ -34,7 +34,7 @@ namespace SereApi.Controllers
                     name = x.NameObjective,
                     indicador = x.IndicadorObjective,
                     metas = x.MetasObjective,
-                    objective =x.ObjectiveObjective
+                    objective = x.ObjectiveObjective
                 }).ToListAsync();
                 if (Objectives != null)
                 {
@@ -122,10 +122,10 @@ namespace SereApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Objective>> PostObjective(Objective objective)
         {
-          if (_context.Objectives == null)
-          {
-              return Problem("Entity set 'SereDbContext.Objectives'  is null.");
-          }
+            if (_context.Objectives == null)
+            {
+                return Problem("Entity set 'SereDbContext.Objectives'  is null.");
+            }
             _context.Objectives.Add(objective);
             await _context.SaveChangesAsync();
 
@@ -136,20 +136,26 @@ namespace SereApi.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteObjective(int id)
         {
+            Response response = new();
             if (_context.Objectives == null)
             {
-                return NotFound();
+                response.Message = "Table 'Objective' doesn't exist";
+                return BadRequest(response);
             }
             var objective = await _context.Objectives.FindAsync(id);
             if (objective == null)
             {
-                return NotFound();
+                response.Message = $"No Objective with id: {id}";
+                return BadRequest(response);
             }
 
             _context.Objectives.Remove(objective);
             await _context.SaveChangesAsync();
+            response.Success = true;
+            response.Message = $"Successfully deleted objective with id: {id}";
+            response.Data = objective;
+            return Ok(response);
 
-            return NoContent();
         }
 
         private bool ObjectiveExists(int id)

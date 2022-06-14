@@ -117,7 +117,7 @@ namespace SereApi.Controllers
         // POST: api/Countries
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Country>> PostCountry(String country)
+        public async Task<ActionResult<Country>> PostCountry(String NameCountry)
         {
             Response response = new();
             if (_context.Countries == null)
@@ -126,11 +126,14 @@ namespace SereApi.Controllers
                 response.Message = "Table 'Countries' doesn't exist";
                 return NotFound(response);
             }
-            Country country1 = new();
-            country1.NameCountry = country;
-            _context.Countries.Add(country1);
+            Country country = new();
+            country.NameCountry = NameCountry;
+            //TODO: Prevent save if country already exists
+            _context.Countries.Add(country);
             await _context.SaveChangesAsync();
             response.Success = true;
+            response.Message = "Succesfully saved";
+            response.Data = NameCountry;
             return Ok(response);
         }
 
@@ -142,20 +145,22 @@ namespace SereApi.Controllers
             if (_context.Countries == null)
             {
                 response.Message = "Table 'Country' doesn't exist";
-                return BadRequest(response);
+                return NotFound(response);
                    
             }
             var country = await _context.Countries.FindAsync(id);
             if (country == null)
             {
                 response.Message = $"No country with id: {id}";
-                return BadRequest(response);
+                return NotFound(response);
             }
 
             _context.Countries.Remove(country);
             await _context.SaveChangesAsync();
-            //TODO: QUESTION
-            return Ok(response.Message);
+            response.Success = true;
+            response.Message = $"Successfully deleted country with id: {id}";
+            response.Data = country;
+            return Ok(response);
         }
 
         private bool CountryExists(int id)
