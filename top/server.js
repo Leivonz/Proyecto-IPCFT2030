@@ -18,32 +18,32 @@ http
 
       res.writeHead(200, { "Content-Type": "text/css" });
       fileStream.pipe(res);
+    } else if (req.url.match(/.png$/)) {
+      //cargar imágenes
+      const reqPath = path.join(__dirname, "public", req.url);
+      const fileStream = fs.createReadStream(reqPath, "UTF-8");
+
+      res.writeHead(200, { "Content-Type" : "image/png" });
+      fileStream.pipe(res);
     } else if (req.url.match(/.jpg$/)) {
       //cargar imágenes jpg
       const reqPath = path.join(__dirname, "public", req.url);
       const fileStream = fs.createReadStream(reqPath, "UTF-8");
 
-      res.writeHead(200, { "Content-Type": "image/jpg" });
+      res.writeHead(200, { "Content-Type" : "image/jpg" });
       fileStream.pipe(res);
     } else if (req.url.match(/.js$/)) {
       //cargar javascript
       const reqPath = path.join(__dirname, "public", req.url);
       const fileStream = fs.createReadStream(reqPath, "UTF-8");
 
-      res.writeHead(200, { "Content-Type": "main.js" });
-      fileStream.pipe(res);
-    } else if (req.url.match(/.png$/)) {
-      //cargar imágenes jpg
-      const reqPath = path.join(__dirname, "public", req.url);
-      const fileStream = fs.createReadStream(reqPath, "UTF-8");
-
-      res.writeHead(200, { "Content-Type": "image/png" });
+      res.writeHead(200, { "Content-Type" : "main.js" });
       fileStream.pipe(res);
     } else {
-      res.writeHead(404, { "Content-Type": "text/plain" });
+      res.writeHead(404, { "Content-Type" : "text/plain" });
       res.end("404 ERROR");
     }
   })
-  .listen(3000);
+  .listen(8000);
 
 console.log("Servidor iniciado...");
