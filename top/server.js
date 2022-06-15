@@ -23,14 +23,14 @@ http
       const reqPath = path.join(__dirname, "public", req.url);
       const fileStream = fs.createReadStream(reqPath, "UTF-8");
 
-      res.writeHead(200, { "Content-Type" : "image/png" });
+      res.writeHead(200, { "Content-Type": "image/png" });
       fileStream.pipe(res);
     } else if (req.url.match(/.jpg$/)) {
       //cargar imágenes jpg
       const reqPath = path.join(__dirname, "public", req.url);
       const fileStream = fs.createReadStream(reqPath, "UTF-8");
 
-      res.writeHead(200, { "Content-Type" : "image/jpg" });
+      res.writeHead(200, { "Content-Type": "image/jpg" });
       res.end(data);
       fileStream.pipe(res);
     } else if (req.url.match(/.js$/)) {
@@ -38,10 +38,10 @@ http
       const reqPath = path.join(__dirname, "public", req.url);
       const fileStream = fs.createReadStream(reqPath, "UTF-8");
 
-      res.writeHead(200, { "Content-Type" : "js/main.js" });
+      res.writeHead(200, { "Content-Type": "main.js" });
       fileStream.pipe(res);
     } else {
-      res.writeHead(404, { "Content-Type" : "text/plain" });
+      res.writeHead(404, { "Content-Type": "text/plain" });
       res.end("404 ERROR");
     }
   })
