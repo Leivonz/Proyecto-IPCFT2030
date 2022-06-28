@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\SERE_API",
     "\\SERE_API\\Controllers",
     "\\SERE_WebApp"
   ],
   "SelectedNode": "\\SERE_WebApp\\SERE_WebApp.csproj",
+=======
+    "\\SereApi"
+  ],
+  "SelectedNode": "\\SereApi\\SereApi.sln",
+>>>>>>> 9e2984f83338468ad4cc49dc63edf68d495c0301
   "PreviewInSolutionExplorer": false
 }

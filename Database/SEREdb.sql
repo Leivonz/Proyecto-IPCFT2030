@@ -122,3 +122,31 @@ create table organizacion_ods(
   constraint FK_organizacion_ods foreign key (id_organizacion) references organizacion(id_organizacion),
   constraint FK_ods_organizacion foreign key (id_ods) references ods(id_ods)
 )
+
+create table tipo_evento(
+	id_evento int primary key,
+	nombre_tipo varchar(20) not null
+)
+
+create table eventos(
+ id_evento int primary key,
+ nombre_evento varchar(60) not null,
+ fecha_evento date not null,
+ desc_evento varchar(255) not null,
+ ods_evento int not null,
+ id_tipo_evento int,
+ cant_cupos int,
+ costo_evento money not null,
+ id_organizacion int not null,
+ foreign key (id_tipo_evento) references tipo_evento(id_evento),
+ foreign key (id_organizacion) references organizacion(id_organizacion),
+ foreign key (ods_evento) references ods(id_ods)
+)
+
+
+create table Persona_eventos(
+	id_evento int,
+	id_persona int,
+	foreign key (id_evento) references eventos(id_evento),
+	foreign key (id_persona) references persona(id_persona) 
+)

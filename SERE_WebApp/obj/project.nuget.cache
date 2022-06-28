@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "9EYuuYDh8my1QclYvpojtLNb85mLoaUTmkWeJ65J3JIPb/LNo/xugboyl0O/XbrKgKklhcrMCAJJr1fmAtXXyg==",
   "success": true,
   "projectFilePath": "F:\\IPCFT2030\\web\\SERE_WebApp\\SERE_WebApp.csproj",
+=======
+  "dgSpecHash": "oZ2btAJGzgtLFUuymImXzt1aLgxYPm54bqFsfMDXnNCZN30KR3+7AbCXErp9oSMBXBOvedAdlAG9ecB0SiEH3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Adolfo\\Documents\\Github\\ramita\\Proyecto-IPCFT2030\\SERE_WebApp\\SereWebApp.csproj",
+>>>>>>> 9e2984f83338468ad4cc49dc63edf68d495c0301
   "expectedPackageFiles": [],
   "logs": []
 }
