@@ -524,3 +524,13 @@ C:\Users\Adolfo\Documents\Github\ramita\Proyecto-IPCFT2030\SERE_API\obj\Debug\ne
 C:\Users\Adolfo\Documents\Github\ramita\Proyecto-IPCFT2030\SERE_API\obj\Debug\net6.0\SERE_API.pdb
 C:\Users\Adolfo\Documents\Github\ramita\Proyecto-IPCFT2030\SERE_API\obj\Debug\net6.0\SERE_API.genruntimeconfig.cache
 C:\Users\Adolfo\Documents\Github\ramita\Proyecto-IPCFT2030\SERE_API\obj\Debug\net6.0\ref\SERE_API.dll
+F:\IPCFT2030\web\SERE_API\obj\Debug\net6.0\SERE_API.csproj.AssemblyReference.cache
+F:\IPCFT2030\web\SERE_API\obj\Debug\net6.0\SERE_API.GeneratedMSBuildEditorConfig.editorconfig
+F:\IPCFT2030\web\SERE_API\obj\Debug\net6.0\SERE_API.AssemblyInfoInputs.cache
+F:\IPCFT2030\web\SERE_API\obj\Debug\net6.0\SERE_API.AssemblyInfo.cs
+F:\IPCFT2030\web\SERE_API\obj\Debug\net6.0\SERE_API.csproj.CoreCompileInputs.cache
+F:\IPCFT2030\web\SERE_API\obj\Debug\net6.0\SERE_API.MvcApplicationPartsAssemblyInfo.cs
+F:\IPCFT2030\web\SERE_API\obj\Debug\net6.0\SERE_API.MvcApplicationPartsAssemblyInfo.cache
+F:\IPCFT2030\web\SERE_API\obj\Debug\net6.0\SERE_API.dll
+F:\IPCFT2030\web\SERE_API\obj\Debug\net6.0\refint\SERE_API.dll
+F:\IPCFT2030\web\SERE_API\obj\Debug\net6.0\SERE_API.pdb
