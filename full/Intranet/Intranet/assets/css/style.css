@@ -1090,6 +1090,7 @@ h6 {
   color: white;
 }
 
+
 /*--------------------------------------------------------------
 # Chekbox
 --------------------------------------------------------------*/
@@ -1270,37 +1271,37 @@ h6 {
 }
 
 .option_item .option_inner.Ods2 .tickmark {
-  border-color: #55acee transparent transparent #55acee;
+  border-color: #3b5999 transparent transparent #3b5999;
   transition: 200ms;
 }
 
 .option_item .option_inner.Ods3 .tickmark {
-  border-color: #e4405f transparent transparent #e4405f;
+  border-color: #3b5999 transparent transparent #3b5999;
   transition: 200ms;
 }
 
 .option_item .option_inner.Ods4 .tickmark {
-  border-color: #0077b5 transparent transparent #0077b5;
+  border-color: #3b5999 transparent transparent #3b5999 ;
   transition: 200ms;
 }
 
 .option_item .option_inner.Ods5 .tickmark {
-  border-color: #25d366 transparent transparent #25d366;
+  border-color: #3b5999  transparent transparent #3b5999 ;
   transition: 200ms;
 }
 
 .option_item .option_inner.Ods6 .tickmark {
-  border-color: #dd4b39 transparent transparent #dd4b39;
+  border-color: #3b5999 transparent transparent #3b5999 ;
   transition: 200ms;
 }
 
 .option_item .option_inner.Ods7 .tickmark {
-  border-color: #ff5700 transparent transparent #ff5700;
+  border-color: #3b5999 transparent transparent #3b5999;
   transition: 200ms;
 }
 
 .option_item .option_inner.Ods8 .tickmark {
-  border-color: #b92b27 transparent transparent #b92b27;
+  border-color: #3b5999 transparent transparent #3b5999;
   transition: 200ms;
 }
 
