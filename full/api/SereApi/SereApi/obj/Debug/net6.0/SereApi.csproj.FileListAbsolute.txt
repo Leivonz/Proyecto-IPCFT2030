@@ -1050,3 +1050,8 @@ F:\IPCFT2030\web\full\api\SereApi\SereApi\obj\Debug\net6.0\refint\SereApi.dll
 F:\IPCFT2030\web\full\api\SereApi\SereApi\obj\Debug\net6.0\SereApi.pdb
 F:\IPCFT2030\web\full\api\SereApi\SereApi\obj\Debug\net6.0\SereApi.genruntimeconfig.cache
 F:\IPCFT2030\web\full\api\SereApi\SereApi\obj\Debug\net6.0\ref\SereApi.dll
+F:\IPCFT2030\web\full\api\SereApi\SereApi\bin\Debug\net6.0\System.Web.Cors.dll
+F:\IPCFT2030\web\full\api\SereApi\SereApi\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+F:\IPCFT2030\web\full\api\SereApi\SereApi\bin\Debug\net6.0\System.Web.Http.dll
+F:\IPCFT2030\web\full\api\SereApi\SereApi\bin\Debug\net6.0\System.Web.Http.Cors.dll
+F:\IPCFT2030\web\full\api\SereApi\SereApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
