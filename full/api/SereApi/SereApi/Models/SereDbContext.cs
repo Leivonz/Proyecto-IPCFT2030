@@ -40,7 +40,7 @@ namespace SereApi.Models
             if (!optionsBuilder.IsConfigured)
             {
                 // optionsBuilder.UseSqlServer("Server=tcp:sere.database.windows.net,1433;Initial Catalog=SereDb;Persist Security Info=False;User ID=ipcft2030;Password=mx3QXXaTk7CNibd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-                optionsBuilder.UseSqlServer("Server=tcp:sere.database.windows.net,1433;Initial Catalog=SereDb;Persist Security Info=False;User ID=ipcft2030;Password=mx3QXXaTk7CNibd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                optionsBuilder.UseSqlServer("Data Server=SQL5109.site4now.net;Initial Catalog=db_a4cc73_seredb;Persist Security Info=False;User ID=db_a4cc73_seredb_admin;Password=Sere2022DB;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
 
             }
 
