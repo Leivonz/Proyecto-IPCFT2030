@@ -1055,3 +1055,4 @@ F:\IPCFT2030\web\full\api\SereApi\SereApi\bin\Debug\net6.0\System.Net.Http.Forma
 F:\IPCFT2030\web\full\api\SereApi\SereApi\bin\Debug\net6.0\System.Web.Http.dll
 F:\IPCFT2030\web\full\api\SereApi\SereApi\bin\Debug\net6.0\System.Web.Http.Cors.dll
 F:\IPCFT2030\web\full\api\SereApi\SereApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+F:\IPCFT2030\web\full\api\SereApi\SereApi\bin\Debug\net6.0\web.config
