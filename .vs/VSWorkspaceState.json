@@ -3,10 +3,11 @@
     "",
     "\\full",
     "\\full\\api",
-    "\\full\\api\\SereApi",
-    "\\full\\api\\SereApi\\SereApi",
+    "\\full\\api\\SAPi",
+    "\\full\\api\\SAPi\\SereApi",
+    "\\full\\api\\SAPi\\SereApi\\SereApi",
     "\\full\\api\\SereApi\\SereApi\\Controllers"
   ],
-  "SelectedNode": "\\full\\api\\SereApi\\SereApi\\Program.cs",
+  "SelectedNode": "\\full\\api\\SAPi\\SereApi\\SereApi\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
