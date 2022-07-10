@@ -34,7 +34,9 @@ namespace SereApi.Controllers
                     surname = x.SurnamePerson,
                     email = x.EmailPerson,
                     phone = x.PhonePerson,
-                    pass = x.PasswordPerson
+                    pass = x.PasswordPerson,
+                    country = x.CountryPerson,
+                    organization = x.OrganizationPerson
                 }).ToListAsync();
                 if (people != null)
                 {
