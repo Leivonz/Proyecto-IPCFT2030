@@ -118,16 +118,23 @@ namespace SereApi.Controllers
         // POST: api/ProjectObjectives
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<ProjectObjective>> PostProjectObjective(ProjectObjective projectObjective)
+        public async Task<ActionResult<ProjectObjective>> PostProjectObjective(int IdProject, int IdObjective)
         {
+            Response response = new();
             if (_context.ProjectObjectives == null)
             {
-                return Problem("Entity set 'SereDbContext.ProjectObjectives'  is null.");
+                response.Message="Entity set 'SereDbContext.ProjectObjectives'  is null.";
+                return NotFound(response);
             }
-            _context.ProjectObjectives.Add(projectObjective);
+            ProjectObjective projectobjective = new();
+            projectobjective.IdProject = IdProject;
+            projectobjective.IdObjective = IdObjective;
+            _context.ProjectObjectives.Add(projectobjective);
             await _context.SaveChangesAsync();
+            response.Success = true;
+            response.Message = "Succesfully saved";
 
-            return CreatedAtAction("GetProjectObjective", new { id = projectObjective.IdProjectObjective }, projectObjective);
+            return Ok(response);
         }
 
         // DELETE: api/ProjectObjectives/5

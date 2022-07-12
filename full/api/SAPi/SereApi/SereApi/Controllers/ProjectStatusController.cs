@@ -118,16 +118,22 @@ namespace SereApi.Controllers
         // POST: api/ProjectStatus
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<ProjectStatus>> PostProjectStatus(ProjectStatus projectStatus)
+        public async Task<ActionResult<ProjectStatus>> PostProjectStatus(string NameProjectStatus)
         {
+            Response response = new();
             if (_context.ProjectStatuses == null)
             {
-                return Problem("Entity set 'SereDbContext.ProjectStatuses'  is null.");
+                response.Message = "Entity set 'SereDbContext.ProjectStatuses'  is null.";
+                return NotFound(response);
             }
-            _context.ProjectStatuses.Add(projectStatus);
-            await _context.SaveChangesAsync();
+            ProjectStatus psc = new ();
+            psc.NameProjectStatus = NameProjectStatus;
 
-            return CreatedAtAction("GetProjectStatus", new { id = projectStatus.IdProjectStatus }, projectStatus);
+            _context.ProjectStatuses.Add(psc);
+            await _context.SaveChangesAsync();
+            response.Success = true;
+            response.Message = "Succesfully saved";
+            return Ok(response);
         }
 
         // DELETE: api/ProjectStatus/5

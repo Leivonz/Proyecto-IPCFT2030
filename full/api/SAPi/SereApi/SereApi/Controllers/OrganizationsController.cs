@@ -125,16 +125,27 @@ namespace SereApi.Controllers
         // POST: api/Organizations
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Organization>> PostOrganization(Organization organization)
+        public async Task<ActionResult<Organization>> PostOrganization(string name, string description, string email, int country, string phone, int organizationtype, int organizationstatus)
         {
+            Response response = new();
             if (_context.Organizations == null)
             {
-                return Problem("Entity set 'SereDbContext.Organizations'  is null.");
+                response.Message = "Entity set 'SereDbContext.Organizations'  is null.";
+                return NotFound(response);
             }
-            _context.Organizations.Add(organization);
+            Organization Org = new ();
+            Org.NameOrganization = name;
+            Org.DescriptionOrganization = description;
+            Org.EmailOrganization = email;
+            Org.Country = country;
+            Org.Phone = phone;
+            Org.IdOrganizationType= organizationtype;
+            Org.IdOrganizationStatus = organizationstatus;
+
+            _context.Organizations.Add(Org);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetOrganization", new { id = organization.IdOrganization }, organization);
+            return Ok(response);
         }
 
         // DELETE: api/Organizations/5

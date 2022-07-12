@@ -11,7 +11,7 @@ namespace SereApi.Models
         }
 
         public int IdCountry { get; set; }
-        public string? NameCountry { get; set; }
+        public string NameCountry { get; set; }
 
         public virtual ICollection<Organization> Organizations { get; set; }
     }

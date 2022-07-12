@@ -14,10 +14,10 @@ namespace SereApi.Models
         }
 
         public int IdObjective { get; set; }
-        public string? NameObjective { get; set; }
-        public string? IndicadorObjective { get; set; }
-        public string? MetasObjective { get; set; }
-        public string? ObjectiveObjective { get; set; }
+        public string NameObjective { get; set; }
+        public string IndicadorObjective { get; set; }
+        public string MetasObjective { get; set; }
+        public string ObjectiveObjective { get; set; }
 
         public virtual ICollection<Event> Events { get; set; }
         public virtual ICollection<OrganizationObjective> OrganizationObjectives { get; set; }

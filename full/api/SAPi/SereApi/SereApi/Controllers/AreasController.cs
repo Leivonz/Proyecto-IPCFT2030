@@ -118,16 +118,21 @@ namespace SereApi.Controllers
         // POST: api/Areas
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Area>> PostArea(Area area)
+        public async Task<ActionResult<Area>> PostArea(string NameArea)
         {
+            Response response = new();
             if (_context.Areas == null)
-            {
-                return Problem("Entity set 'SereDbContext.Areas'  is null.");
+            { 
+                response.Message = "Table 'Areas' doesn't exist";
+                return NotFound(response);
             }
-            _context.Areas.Add(area);
+            Area a = new();
+            a.NameArea = NameArea;
+            _context.Areas.Add(a);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetArea", new { id = area.IdArea }, area);
+            response.Success = true;
+            response.Message = "Succesfully saved";
+            return Ok(response);
         }
 
         // DELETE: api/Areas/5

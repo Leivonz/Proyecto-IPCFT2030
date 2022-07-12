@@ -15,13 +15,14 @@ namespace SereApi.Models
         }
 
         public int IdPerson { get; set; }
-        public string? NamePerson { get; set; }
-        public string? SurnamePerson { get; set; }
-        public string? EmailPerson { get; set; }
-        public string? PhonePerson { get; set; }
-        public string? PasswordPerson { get; set; }
-        public string? OrganizationPerson { get; set; }
-        public string? CountryPerson { get; set; }
+        public string NamePerson { get; set; }
+        public string SurnamePerson { get; set; }
+        public string EmailPerson { get; set; }
+        public string PhonePerson { get; set; }
+        public string PasswordPerson { get; set; }
+        public string OrganizationNamePerson { get; set; }
+        public int OrganizationPerson { get; set; }
+        public int CountryPerson { get; set; }
 
         public virtual ICollection<OrganizationPerson> OrganizationPeople { get; set; }
         public virtual ICollection<PersonEvent> PersonEvents { get; set; }

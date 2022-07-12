@@ -94,16 +94,27 @@ namespace SereApi.Controllers
         // POST: api/Events
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Event>> PostEvent(Event @event)
+        public async Task<ActionResult<Event>> PostEvent( String name, DateTime date, String description, int objective, int size)
         {
+            Response response = new();
             if (_context.Events == null)
             {
-                return Problem("Entity set 'SereDbContext.Events'  is null.");
+                response.Message = "No se encontró la tabla";
+                return NotFound(response);
             }
-            _context.Events.Add(@event);
-            await _context.SaveChangesAsync();
+            Event e = new();
+            e.NameEvent = name;
+            e.DateEvent = date;
+            e.DescriptionEvent = description;
+            e.ObjectiveEvent = objective;
+            e.SizeEvent = size;
 
-            return CreatedAtAction("GetEvent", new { id = @event.IdEvent }, @event);
+
+            _context.Events.Add(e);
+            await _context.SaveChangesAsync();
+            response.Success = true;
+            response.Message = "Succesfully saved";
+            return Ok(response);
         }
 
         // DELETE: api/Events/5

@@ -122,16 +122,30 @@ namespace SereApi.Controllers
         // POST: api/People
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<People>> PostPerson(People person)
+        public async Task<ActionResult<People>> PostPerson(String nombre, String apellido, String pass,
+            int tipo, String correo, String numero, int nacionalidad, String nombreOrganizacion)
         {
+            Response response = new();
             if (_context.People == null)
             {
-                return Problem("Entity set 'SereDbContext.People'  is null.");
+                response.Message = "Table 'People' doesn't exist";
+                return NotFound(response);
             }
-            _context.People.Add(person);
-            await _context.SaveChangesAsync();
+            People p = new();
+            p.NamePerson = nombre;
+            p.SurnamePerson = apellido;
+            p.PasswordPerson = pass;
+            p.OrganizationPerson = tipo;
+            p.EmailPerson = correo;
+            p.PhonePerson = numero;
+            p.CountryPerson = nacionalidad;
+            p.OrganizationNamePerson = nombreOrganizacion;
 
-            return CreatedAtAction("GetPerson", new { id = person.IdPerson }, person);
+            _context.People.Add(p);
+            await _context.SaveChangesAsync();
+            response.Success = true;
+            response.Message = "Succesfully saved";
+            return Ok(response);
         }
 
         // DELETE: api/People/5

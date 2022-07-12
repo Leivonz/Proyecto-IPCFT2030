@@ -280,6 +280,8 @@ namespace SereApi.Models
                 entity.Property(e => e.SurnamePerson)
                     .HasMaxLength(150)
                     .IsUnicode(false);
+
+                                       
             });
 
             modelBuilder.Entity<PersonEvent>(entity =>
