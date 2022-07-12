@@ -9,7 +9,7 @@ namespace SereApi.Models
         public int? IdPerson { get; set; }
         public int? IdProject { get; set; }
 
-        public virtual Person? IdPersonNavigation { get; set; }
+        public virtual People? IdPersonNavigation { get; set; }
         public virtual Project? IdProjectNavigation { get; set; }
     }
 }

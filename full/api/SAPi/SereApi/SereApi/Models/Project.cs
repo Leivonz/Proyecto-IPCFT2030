@@ -27,7 +27,7 @@ namespace SereApi.Models
         public int? IdPersonResponsable { get; set; }
 
         public virtual Area? IdAreaNavigation { get; set; }
-        public virtual Person? IdPersonResponsableNavigation { get; set; }
+        public virtual People? IdPersonResponsableNavigation { get; set; }
         public virtual ProjectStatus? IdProjectStatusNavigation { get; set; }
         public virtual ICollection<OrganizationProject> OrganizationProjects { get; set; }
         public virtual ICollection<PersonProject> PersonProjects { get; set; }

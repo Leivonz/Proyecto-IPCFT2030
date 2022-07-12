@@ -10,6 +10,6 @@ namespace SereApi.Models
         public int? IdPerson { get; set; }
 
         public virtual Event? IdEventNavigation { get; set; }
-        public virtual Person? IdPersonNavigation { get; set; }
+        public virtual People? IdPersonNavigation { get; set; }
     }
 }

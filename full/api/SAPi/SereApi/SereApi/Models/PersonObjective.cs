@@ -10,6 +10,6 @@ namespace SereApi.Models
         public int? IdObjective { get; set; }
 
         public virtual Objective? IdObjectiveNavigation { get; set; }
-        public virtual Person? IdPersonNavigation { get; set; }
+        public virtual People? IdPersonNavigation { get; set; }
     }
 }
