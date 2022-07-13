@@ -162,25 +162,20 @@
     </header>
     <br />
     <br />
-
-<<<<<<< HEAD
-    <!-- End Header -->
-    <!--END NAV BAR-->
-    <!--START LOG IN MODULE-->
+    ->
     <div
       class="modal modal-signin position-static d-block bg-light py-5"
       tabindex="-1"
       role="dialog"
       id="modalSignin"
     >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content rounded-4 shadow">
-          <div class="modal-header p-5 pb-4 border-bottom-0">
-            <!-- <h5 class="modal-title">Modal title</h5> -->
-            <h2 class="fw-bold mb-0">Registrate</h2>
-          </div>
-          <div class="modal-body p-5 pt-0">
-            <form class="">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+              <!-- <h5 class="modal-title">Modal title</h5> -->
+              <h2 class="fw-bold mb-0">Registrate</h2>
+            </div>
+            <div class="modal-body p-5 pt-0">
               <div class="form-floating mb-3">
                 <input
                   type="text"
@@ -194,7 +189,7 @@
                 <input
                   type="text"
                   class="form-control rounded-3"
-                  id="floatingInput"
+                  id="names"
                   placeholder="name@example.com"
                 />
                 <label for="floatingInput">Ingresa tu apellido</label>
@@ -203,7 +198,7 @@
                 <input
                   type="email"
                   class="form-control rounded-3"
-                  id="floatingInput"
+                  id="apellidos"
                   placeholder="name@example.com"
                 />
                 <label for="floatingInput">Ingrese su correo electronico</label>
@@ -212,13 +207,17 @@
                 <input
                   type="tel"
                   class="form-control rounded-3"
-                  id="floatingInput"
+                  id="emailAddress"
                   placeholder="Ingrese su numero de telefono"
                 />
                 <label for="floatingInput">Ingrese su número de teléfono</label>
               </div>
               <div class="form-floating mb-3">
-                <select class="form-select " id="floatingSelect" aria-label="Floating label select example">
+                <select
+                  class="form-select"
+                  id="phoneNumber"
+                  aria-label="Floating label select example"
+                >
                   <option disabled>Seleccione su nacionalidad</option>
                   <option value="1">Chile</option>
                   <option value="2">Peru</option>
@@ -228,35 +227,54 @@
               </div>
               <a>Seleccione su tipo de usuario: </a>
               <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="exampleRadios1"
+                  value="option1"
+                  checked
+                />
                 <label class="form-check-label" for="exampleRadios1">
                   Persona
                 </label>
               </div>
               <div class="form-check mb-3">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="exampleRadios2"
+                  value="option2"
+                />
                 <label class="form-check-label" for="exampleRadios2">
                   Organizacion
                 </label>
               </div>
-              
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control rounded-3"
+                  id="orgName"
+                  placeholder="Password"
+                />
+                <label for="floatingPassword">Nombre Organización</label>
+              </div>
+
               <div class="form-floating mb-3">
                 <input
                   type="password"
                   class="form-control rounded-3"
-                  id="floatingPassword"
+                  id="pass"
                   placeholder="Password"
                 />
                 <label for="floatingPassword">Contraseña</label>
               </div>
 
-   
-
-             
-
               <button
                 class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
                 type="submit"
+                id="button"
               >
                 Registrarse
               </button>
@@ -274,10 +292,9 @@
                   </a>
                 </p>
               </div>
-            </form>
+            </div>
           </div>
         </div>
-      </div>
     </div>
     <div class="border"></div>
     <div class="container">
@@ -340,5 +357,6 @@
         </ul>
       </footer>
     </div>
+    <script src="forms/register.js"></script>
   </body>
 </html>
