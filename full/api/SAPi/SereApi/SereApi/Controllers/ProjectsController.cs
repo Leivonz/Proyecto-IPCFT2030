@@ -31,7 +31,6 @@ namespace SereApi.Controllers
                 var projects = await _context.Projects.Select(x => new
                 {
                     id = x.IdProject,
-                    cost = x.MontoProject,
                     creation = x.CreationDateProject,
                     start = x.StartDateProject,
                     end = x.EndDateProject,
@@ -128,16 +127,33 @@ namespace SereApi.Controllers
         // POST: api/Projects
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Project>> PostProject(Project project)
+        public async Task<ActionResult<Project>> PostProject(DateTime CreationDateProject, DateTime StartDateProject, DateTime EndDateProject, int MonthsProject,
+                                                            string DescriptionProject, string KeyWordsProject, string ObjectivesProject, int IdArea, int IdProjectStatus,
+                                                            int IdObjectiveObjective, int IdPersonResponsable) 
         {
+            Response response = new();
             if (_context.Projects == null)
             {
-                return Problem("Entity set 'SereDbContext.Projects'  is null.");
+                response.Message= "Entity set 'SereDbContext.Projects'  is null.";
+                return NotFound(response);
             }
+            Project project = new();
+            project.CreationDateProject = CreationDateProject;
+            project.StartDateProject = StartDateProject;
+            project.EndDateProject = EndDateProject;
+            project.MonthsProject = MonthsProject;
+            project.DescriptionProject = DescriptionProject;
+            project.KeyWordsProject = KeyWordsProject;
+            project.ObjectivesProject = ObjectivesProject;
+            project.IdArea = IdArea;
+            project.IdProjectStatus = IdProjectStatus;
+            project.IdObjectiveObjective = IdObjectiveObjective;
+            project.IdPersonResponsable = IdPersonResponsable;
             _context.Projects.Add(project);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetProject", new { id = project.IdProject }, project);
+            response.Success = true;
+            response.Message = "Succesfully saved";       
+            return Ok(response);
         }
 
         // DELETE: api/Projects/5

@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\SereApi",
-    "\\SereApi\\SereApi"
+    "\\SereApi\\SereApi",
+    "\\SereApi\\SereApi\\Controllers"
   ],
-  "SelectedNode": "\\SereApi\\SereApi\\Program.cs",
+  "SelectedNode": "\\SereApi\\SereApi\\Controllers\\OrganizationsController.cs",
   "PreviewInSolutionExplorer": false
 }

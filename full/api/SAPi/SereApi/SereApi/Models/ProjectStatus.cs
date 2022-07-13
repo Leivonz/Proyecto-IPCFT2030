@@ -11,7 +11,7 @@ namespace SereApi.Models
         }
 
         public int IdProjectStatus { get; set; }
-        public string? NameProjectStatus { get; set; }
+        public string NameProjectStatus { get; set; }
 
         public virtual ICollection<Project> Projects { get; set; }
     }

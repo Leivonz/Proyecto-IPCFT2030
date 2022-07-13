@@ -11,7 +11,7 @@ namespace SereApi.Models
         }
 
         public int IdOrganizationType { get; set; }
-        public string? NameOrganizationType { get; set; }
+        public string NameOrganizationType { get; set; }
 
         public virtual ICollection<Organization> Organizations { get; set; }
     }

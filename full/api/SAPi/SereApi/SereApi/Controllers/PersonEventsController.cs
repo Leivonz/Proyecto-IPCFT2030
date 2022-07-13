@@ -120,16 +120,22 @@ namespace SereApi.Controllers
         // POST: api/PersonEvents
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<PersonEvent>> PostPersonEvent(PersonEvent personEvent)
+        public async Task<ActionResult<PersonEvent>> PostPersonEvent(int idperson, int idEvent)
         {
+            Response response = new();
             if (_context.PersonEvents == null)
             {
-                return Problem("Entity set 'SereDbContext.PersonEvents'  is null.");
+                response.Message = "Table 'PersonEventsController' doesn't exist";
+                return NotFound(response);
             }
-            _context.PersonEvents.Add(personEvent);
+            PersonEvent PerEve = new ();
+            PerEve.IdPerson = idperson;
+            PerEve.IdEvent = idEvent;
+
+            _context.PersonEvents.Add(PerEve);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetPersonEvent", new { id = personEvent.IdPersonEvent }, personEvent);
+            return Ok(response);
         }
 
         // DELETE: api/PersonEvents/5

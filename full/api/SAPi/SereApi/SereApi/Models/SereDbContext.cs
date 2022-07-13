@@ -27,7 +27,7 @@ namespace SereApi.Models
         public virtual DbSet<OrganizationProject> OrganizationProjects { get; set; } = null!;
         public virtual DbSet<OrganizationStatus> OrganizationStatuses { get; set; } = null!;
         public virtual DbSet<OrganizationType> OrganizationTypes { get; set; } = null!;
-        public virtual DbSet<Person> People { get; set; } = null!;
+        public virtual DbSet<People> People { get; set; } = null!;
         public virtual DbSet<PersonEvent> PersonEvents { get; set; } = null!;
         public virtual DbSet<PersonObjective> PersonObjectives { get; set; } = null!;
         public virtual DbSet<PersonProject> PersonProjects { get; set; } = null!;
@@ -258,7 +258,7 @@ namespace SereApi.Models
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Person>(entity =>
+            modelBuilder.Entity<People>(entity =>
             {
                 entity.HasKey(e => e.IdPerson)
                     .HasName("PK__Person__A5D4E15B84CD3DA8");
@@ -280,6 +280,8 @@ namespace SereApi.Models
                 entity.Property(e => e.SurnamePerson)
                     .HasMaxLength(150)
                     .IsUnicode(false);
+
+                                       
             });
 
             modelBuilder.Entity<PersonEvent>(entity =>

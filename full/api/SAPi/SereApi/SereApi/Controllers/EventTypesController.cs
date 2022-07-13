@@ -117,16 +117,22 @@ namespace SereApi.Controllers
         // POST: api/EventTypes
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<EventType>> PostEventType(EventType eventType)
+        public async Task<ActionResult<EventType>> PostEventType(String tipoevento)
         {
+            Response response = new();
             if (_context.EventTypes == null)
             {
-                return Problem("Entity set 'SereDbContext.EventTypes'  is null.");
+                response.Message="Entity set 'SereDbContext.EventTypes'  is null.";
+                return NotFound(response);
             }
-            _context.EventTypes.Add(eventType);
+            EventType ev = new();
+            ev.NameEventType = tipoevento;
+            _context.EventTypes.Add(ev);
             await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetEventType", new { id = eventType.IdEvent }, eventType);
+            response.Success = true;
+            response.Message = "Succesfully saved";
+            response.Data = tipoevento;
+            return Ok(response);
         }
 
         // DELETE: api/EventTypes/5

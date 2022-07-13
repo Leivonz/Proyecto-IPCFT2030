@@ -2,17 +2,17 @@ const button = document.getElementById("button");
 
 button.addEventListener("click", () => {
   const newPost = {
-    NamePerson: document.getElementById("names").value,
-    SurnamePerson: document.getElementById("apellidos").value,
-    EmailPerson: document.getElementById("emailAddress").value,
-    PhonePerson: document.getElementById("phoneNumber").value,
-    PasswordPerson: document.getElementById("pass").value,
+    namePerson: document.getElementById("names").value,
+    surnamePerson: document.getElementById("apellidos").value,
+    emailPerson: document.getElementById("emailAddress").value,
+    phonePerson: document.getElementById("phoneNumber").value,
+    passwordPerson: document.getElementById("pass").value,
   };
-  fetch("http://sere.egritec.cl/Api/People", {
+  fetch("https://localhost:7063/api/People", { credentials:"omit" }, {
     method: "POST",
     body: JSON.stringify(newPost),
     headers: {
-      "Content-type": "application/json",
+      "Content-Type": "application/json",
     },
-  }).then((res) => res.json());
+  }).then((response) => response.json());
 });

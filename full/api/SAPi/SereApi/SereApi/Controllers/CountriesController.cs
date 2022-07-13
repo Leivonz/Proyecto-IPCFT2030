@@ -117,7 +117,7 @@ namespace SereApi.Controllers
         // POST: api/Countries
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Country>> PostCountry(String NameCountry)
+        public async Task<ActionResult<Country>> PostCountry(string NameCountry)
         {
             Response response = new();
             if (_context.Countries == null)

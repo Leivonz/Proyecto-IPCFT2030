@@ -103,16 +103,25 @@ namespace SereApi.Controllers
         // POST: api/PersonProjects
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<PersonProject>> PostPersonProject(PersonProject personProject)
+        public async Task<ActionResult<PersonProject>> PostPersonProject( int idperson, int idproject)
         {
+            Response response = new();
             if (_context.PersonProjects == null)
             {
-                return Problem("Entity set 'SereDbContext.PersonProjects'  is null.");
+                response.Message = "No se pudo crear la tabla";
+                return NotFound(response);
             }
-            _context.PersonProjects.Add(personProject);
-            await _context.SaveChangesAsync();
+            PersonProject PerPro = new();
+            PerPro.IdPerson = idperson;
+            PerPro.IdProject = idproject;
+            response.Success = true;
+            response.Message = "Succesfully saved";
 
-            return CreatedAtAction("GetPersonProject", new { id = personProject.IdPersonProject }, personProject);
+
+            _context.PersonProjects.Add(PerPro);
+            await _context.SaveChangesAsync();
+            return Ok(response);
+            
         }
 
         // DELETE: api/PersonProjects/5

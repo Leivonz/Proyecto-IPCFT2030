@@ -14,13 +14,13 @@ namespace SereApi.Models
         }
 
         public int IdOrganization { get; set; }
-        public string? NameOrganization { get; set; }
-        public string? DescriptionOrganization { get; set; }
-        public string? EmailOrganization { get; set; }
-        public int? Country { get; set; }
-        public string? Phone { get; set; }
-        public int? IdOrganizationType { get; set; }
-        public int? IdOrganizationStatus { get; set; }
+        public string NameOrganization { get; set; }
+        public string DescriptionOrganization { get; set; }
+        public string EmailOrganization { get; set; }
+        public int Country { get; set; }
+        public string Phone { get; set; }
+        public int IdOrganizationType { get; set; }
+        public int IdOrganizationStatus { get; set; }
 
         public virtual Country? CountryNavigation { get; set; }
         public virtual OrganizationStatus? IdOrganizationStatusNavigation { get; set; }
