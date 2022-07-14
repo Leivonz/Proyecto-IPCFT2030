@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\full",
+    "\\full\\api",
+    "\\full\\api\\SAPi",
+    "\\full\\api\\SAPi\\SereApi",
+    "\\full\\api\\SAPi\\SereApi\\SereApi",
+    "\\full\\api\\SereApi\\SereApi\\Controllers"
+  ],
+  "SelectedNode": "\\full\\api\\SAPi\\SereApi\\SereApi\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

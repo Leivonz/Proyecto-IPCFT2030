@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\api",
+    "\\api\\SereApi",
+    "\\api\\SereApi\\SereApi",
+    "\\api\\SereApi\\SereApi\\Controllers"
+  ],
+  "SelectedNode": "\\api\\SereApi\\SereApi\\Controllers\\CountriesController.cs",
+  "PreviewInSolutionExplorer": false
+}
