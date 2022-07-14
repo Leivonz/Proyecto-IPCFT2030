@@ -12,6 +12,7 @@ namespace SereApi.Models
             PersonObjectives = new HashSet<PersonObjective>();
             PersonProjects = new HashSet<PersonProject>();
             Projects = new HashSet<Project>();
+            WebProjectPeople = new HashSet<WebProjectPerson>();
         }
 
         public int IdPerson { get; set; }
@@ -29,5 +30,6 @@ namespace SereApi.Models
         public virtual ICollection<PersonObjective> PersonObjectives { get; set; }
         public virtual ICollection<PersonProject> PersonProjects { get; set; }
         public virtual ICollection<Project> Projects { get; set; }
+        public virtual ICollection<WebProjectPerson> WebProjectPeople { get; set; }
     }
 }
