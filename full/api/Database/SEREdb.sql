@@ -1,152 +1,129 @@
-create database SEREdb
-use SEREdb
-
-create table ods(
-  id_ods int primary key identity(1, 1),
-  nombre_ods varchar(150),
-  indicador varchar(max),
-  metas_ods varchar(max),
-  objetivos_ods varchar(max)
-) 
-
-create table pais(
-  id_pais int primary key identity(1, 1),
-  nombre_pais varchar(150)
-) 
-
-create table area(
-  id_area int primary key identity(1, 1),
-  nombre_area varchar(150),
-) 
-
-create table estadoproyecto(
-  id_estadoproyecto int primary key identity(1, 1),
-  nombre_estadoproyecto varchar(150),
-) 
-
-create table persona(
-  id_persona int primary key identity(1, 1),
-  nombre varchar(150),
-  apellido varchar(150),
-  email varchar(150),
-  fono varchar(150),
-) 
-
-create table proyecto(
-  id_proyecto int primary key identity(1, 1),
-  monto int,
-  fecha_Creacion date,
-  fecha_inico date,
-  fecha_termino date,
-  meses int,
-  descripcion varchar (max),
-  palabras_clave varchar (max),
-  objetivos varchar (max),
-  id_area int,
-  id_estadoproyecto int,
-  id_ods int,
-  id_personaresponsable int,
-  constraint FK_proyecto_area foreign key (id_area) references area(id_area),
-  constraint FK_proyecto_estadoproyecto foreign key (id_estadoproyecto) references estadoproyecto(id_estadoproyecto),
-  constraint FK_proyecto_personaresponsabe foreign key (id_personaresponsable) references persona(id_persona),
-) 
-
-create table estadoorganizacion(
-  id_estadoorganizacion int primary key identity(1, 1),
-  nombre_estado varchar(50),
-) 
-
-create table tipoorganizacion(
-  id_tipoorganizacion int primary key identity(1, 1),
-  nombre varchar(50)
-) 
-
-create table organizacion(
-  id_organizacion int primary key identity(1, 1),
-  nombre varchar(150),
-  descripcion varchar(150),
-  correo_organizacion varchar(100),
-  pais int,
-  telefono varchar(150),
-  id_tipoorganizacion int,
-  id_estadoorganizacion int,
-  constraint FK_organizacion_pais foreign key (pais) references pais(id_pais),
-  constraint FK_organizacion_estadoorganizacion foreign key (id_estadoorganizacion) references estadoorganizacion(id_estadoorganizacion),
-  constraint FK_organizacion_tipoorganizacion foreign key (id_tipoorganizacion) references tipoorganizacion(id_tipoorganizacion),
-) 
-
-create table organizacion_persona(
-  id_organizacion_persona int primary key identity(1, 1),
-  id_persona int,
-  id_organizacion int,
-  constraint FK_organizacion_persona foreign key (id_organizacion) references organizacion(id_organizacion),
-  constraint FK_persona_organizacion foreign key (id_persona) references persona(id_persona)
-) 
-
-create table persona_proyecto(
-  id_organizacion_proyecto int primary key identity(1, 1),
-  id_persona int,
-  id_proyecto int,
-  constraint FK_persona_proyecto foreign key (id_persona) references persona(id_persona),
-  constraint FK_proyecto_persona foreign key (id_proyecto) references proyecto(id_proyecto)
-) 
-
-create table organizacion_proyecto(
-  id_organizacion_proyecto int primary key identity(1, 1),
-  id_organizacion int,
-  id_proyecto int,
-  constraint FK_organizacion_proyecto foreign key (id_organizacion) references organizacion(id_organizacion),
-  constraint FK_proyecto_organizacion foreign key (id_proyecto) references proyecto(id_proyecto)
-) 
-
-create table proyecto_ods(
-  id_proyecto_ods int primary key identity(1, 1),
-  id_proyecto int,
-  id_ods int,
-  constraint FK_proyecto_ods foreign key (id_proyecto) references proyecto(id_proyecto),
-  constraint FK_ods_proyecto foreign key (id_ods) references ods(id_ods)
-) 
-
-create table persona_ods(
-  id_persona_ods int primary key identity(1, 1),
-  id_persona int,
-  id_ods int,
-  constraint FK_persona_ods foreign key (id_persona) references persona(id_persona),
-  constraint FK_ods_persona foreign key (id_ods) references ods(id_ods)
-) 
-
-create table organizacion_ods(
-  ip_organizacion_ods int primary key identity(1, 1),
-  id_organizacion int,
-  id_ods int,
-  constraint FK_organizacion_ods foreign key (id_organizacion) references organizacion(id_organizacion),
-  constraint FK_ods_organizacion foreign key (id_ods) references ods(id_ods)
-)
-
-create table tipo_evento(
-	id_evento int primary key,
-	nombre_tipo varchar(20) not null
-)
-
-create table eventos(
- id_evento int primary key,
- nombre_evento varchar(60) not null,
- fecha_evento date not null,
- desc_evento varchar(255) not null,
- ods_evento int not null,
- id_tipo_evento int,
- cant_cupos int,
- costo_evento money not null,
- id_organizacion int not null,
- foreign key (id_tipo_evento) references tipo_evento(id_evento),
- foreign key (id_organizacion) references organizacion(id_organizacion),
- foreign key (ods_evento) references ods(id_ods)
-)
-
-
-create table Persona_eventos(
-	id_evento int,
-	id_persona int,
-	foreign key (id_evento) references eventos(id_evento),
-	foreign key (id_persona) references persona(id_persona) 
-)
+CREATE TABLE Country (
+	IdCountry int IDENTITY(1,1) PRIMARY KEY,
+	NameCountry varchar(150) NOT NULL
+);
+CREATE TABLE EventType (
+	IdEvent int IDENTITY(1,1) PRIMARY KEY,
+	NameEventType varchar(20)  NOT NULL,
+);
+CREATE TABLE Objective (
+	IdObjective int IDENTITY(1,1) PRIMARY KEY,
+	NameObjective varchar(150) ,
+	IndicadorObjective varchar(MAX) ,
+	MetasObjective varchar(MAX) ,
+	ObjectiveObjective varchar(MAX) ,
+);
+CREATE TABLE OrganizationStatus (
+	IdOrganizationStatus int IDENTITY(1,1) PRIMARY KEY,
+	NameOrganizationStatus varchar(50) ,
+);
+CREATE TABLE OrganizationType (
+	IdOrganizationType int IDENTITY(1,1) PRIMARY KEY,
+	NameOrganizationType varchar(50) ,
+);
+CREATE TABLE ProjectStatus (
+	IdProjectStatus int IDENTITY(1,1) PRIMARY KEY,
+	NameProjectStatus varchar(150) ,
+);
+CREATE TABLE Organization (
+	IdOrganization int IDENTITY(1,1) PRIMARY KEY,
+	NameOrganization varchar(150)  NOT NULL,
+	DescriptionOrganization varchar(150)  NOT NULL,
+	EmailOrganization varchar(100)  NOT NULL,
+	Country int NOT NULL,
+	Phone varchar(30)  NOT NULL,
+	IdOrganizationType int NOT NULL,
+	IdOrganizationStatus int NOT NULL,
+	CONSTRAINT FkOrganizationCountry FOREIGN KEY (Country) REFERENCES Country(IdCountry),
+	CONSTRAINT FkOrganizationOrganizationStatus FOREIGN KEY (IdOrganizationStatus) REFERENCES OrganizationStatus(IdOrganizationStatus),
+	CONSTRAINT FkOrganizationOrganizationType FOREIGN KEY (IdOrganizationType) REFERENCES OrganizationType(IdOrganizationType)
+);
+CREATE TABLE OrganizationObjective (
+	IdOrganizationObjective int IDENTITY(1,1) PRIMARY KEY,
+	IdOrganization int NULL,
+	IdObjective int NULL,
+	CONSTRAINT FkObjectiveOrganization FOREIGN KEY (IdObjective) REFERENCES Objective(IdObjective),
+	CONSTRAINT FkOrganizationObjective FOREIGN KEY (IdOrganization) REFERENCES Organization(IdOrganization)
+);
+CREATE TABLE Person (
+	IdPerson int IDENTITY(1,1) PRIMARY KEY,
+	NamePerson varchar(150)  NOT NULL,
+	SurnamePerson varchar(150)  NOT NULL,
+	EmailPerson varchar(150)  NOT NULL,
+	PhonePerson varchar(150)  NOT NULL,
+	PasswordPerson varchar(MAX)  NOT NULL,
+	OrganizationName varchar(20) NOT NULL,
+	CountryPerson int NOT NULL,
+	CONSTRAINT FK__Person__Country FOREIGN KEY (CountryPerson) REFERENCES Country(IdCountry),
+);
+CREATE TABLE PersonObjective (
+	IdPersonObjective int IDENTITY(1,1) PRIMARY KEY,
+	IdPerson int NULL,
+	IdObjective int NULL,
+	CONSTRAINT FkObjectivePerson FOREIGN KEY (IdObjective) REFERENCES Objective(IdObjective),
+	CONSTRAINT FkPersonObjective FOREIGN KEY (IdPerson) REFERENCES Person(IdPerson)
+);
+CREATE TABLE Project (
+	IdProject int IDENTITY(1,1) PRIMARY KEY,
+	CreationDateProject date NULL,
+	StartDateProject date NULL,
+	EndDateProject date NULL,
+	MonthsProject int NULL,
+	DescriptionProject varchar(MAX) ,
+	KeyWordsProject varchar(MAX) ,
+	ObjectivesProject varchar(MAX) ,
+	IdArea int NULL,
+	IdProjectStatus int NULL,
+	IdObjectiveObjective int NULL,
+	IdPersonResponsable int NULL,
+	CONSTRAINT FkProjectPersonResponsable FOREIGN KEY (IdPersonResponsable) REFERENCES Person(IdPerson),
+	CONSTRAINT FkProjectProjectStatus FOREIGN KEY (IdProjectStatus) REFERENCES ProjectStatus(IdProjectStatus)
+);
+CREATE TABLE ProjectObjective (
+	IdProjectObjective int IDENTITY(1,1) PRIMARY KEY,
+	IdProject int NULL,
+	IdObjective int NULL,
+	CONSTRAINT FkObjectiveProject FOREIGN KEY (IdObjective) REFERENCES Objective(IdObjective),
+	CONSTRAINT FkProjectObjective FOREIGN KEY (IdProject) REFERENCES Project(IdProject)
+);
+CREATE TABLE Event (
+	IdEvent int IDENTITY(1,1) PRIMARY KEY,
+	NameEvent varchar(60)  NOT NULL,
+	DateEvent date NOT NULL,
+	DescriptionEvent varchar(255)  NOT NULL,
+	ObjectiveEvent int NOT NULL,
+	IdEventType int NULL,
+	SizeEvent int NULL,
+	IdOrganization int NOT NULL,
+	CONSTRAINT FkEventEventType FOREIGN KEY (IdEventType) REFERENCES EventType(IdEvent),
+	CONSTRAINT FkEventObjective FOREIGN KEY (ObjectiveEvent) REFERENCES Objective(IdObjective),
+	CONSTRAINT FkEventOrganization FOREIGN KEY (IdOrganization) REFERENCES Organization(IdOrganization)
+);
+CREATE TABLE OrganizationPerson (
+	IdOrganizationPerson int IDENTITY(1,1) PRIMARY KEY,
+	IdPerson int NULL,
+	IdOrganization int NULL,
+	CONSTRAINT FkOrganizationPerson FOREIGN KEY (IdOrganization) REFERENCES Organization(IdOrganization),
+	CONSTRAINT FkPersonOrganization FOREIGN KEY (IdPerson) REFERENCES Person(IdPerson)
+);
+CREATE TABLE OrganizationProject (
+	IdOrganizationProject int IDENTITY(1,1) PRIMARY KEY,
+	IdOrganization int NULL,
+	IdProject int NULL,
+	CONSTRAINT FkOrganizationProject FOREIGN KEY (IdOrganization) REFERENCES Organization(IdOrganization),
+	CONSTRAINT FkProjectOrganization FOREIGN KEY (IdProject) REFERENCES Project(IdProject)
+);
+CREATE TABLE PersonEvent (
+	IdPersonEvent int IDENTITY(1,1) PRIMARY KEY,
+	IdEvent int NOT NULL,
+	IdPerson int NOT NULL,
+	CONSTRAINT FkPersonEventEvent FOREIGN KEY (IdEvent) REFERENCES Event(IdEvent),
+	CONSTRAINT FkPersonEventPerson FOREIGN KEY (IdPerson) REFERENCES Person(IdPerson)
+);
+CREATE TABLE PersonProject (
+	IdPersonProject int IDENTITY(1,1) PRIMARY KEY,
+	IdPerson int NOT NULL,
+	IdProject int NOT NULL,
+	CONSTRAINT FkPersonProject FOREIGN KEY (IdPerson) REFERENCES Person(IdPerson),
+	CONSTRAINT FkProjectPerson FOREIGN KEY (IdProject) REFERENCES Project(IdProject)
+);

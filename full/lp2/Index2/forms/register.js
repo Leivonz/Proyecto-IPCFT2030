@@ -2,21 +2,22 @@ const button = document.getElementById("button");
 
 button.addEventListener("click", () => {
   const newPost = {
-    nombre: document.getElementById("names").value,
-    apellido: document.getElementById("apellidos").value,
-    correo: document.getElementById("emailAddress").value,
-    numero: document.getElementById("phoneNumber").value,
-    pass: document.getElementById("pass").value,
-    nombreOrganizacion: document.getElementById("orgName").value,
+    namePerson: document.getElementById("names").value,
+    surnamePerson: document.getElementById("apellidos").value,
+    emailPerson: document.getElementById("emailAddress").value,
+    phonePerson: document.getElementById("phoneNumber").value,
+    passwordPerson: document.getElementById("pass").value,
+    organizationName: document.getElementById("orgName").value,
+    countryPerson: 1
   };
-  fetch("https://localhost:7063/api/People", + newPost, {
+  fetch("https://localhost:7146/api/People",  {
     method: "POST",
-    mode: "no-cors",
     body: JSON.stringify(newPost),
     headers: {
-      "Accept": "application/json",
-      "Content-type": "application.json",
+      "access-control-allow-origin": "*", 
+      "Content-type": "application.json; charset=utf-8",
       "server": "Kestrel"
     },
-  }).then((res) => res.json());
+  }).then(res => res.json())
+  return res.json()
 });
