@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SereApi.Models;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace SereApi.Controllers
 {
@@ -145,6 +146,24 @@ namespace SereApi.Controllers
             response.Message = "Succesfully saved";
             return Ok(response);
         }
+
+        //[HttpPost]
+        //public async Task<ActionResult<Login>> PostLogin(String pass, String correo)
+        //{
+        //    Response response = new();
+        //    if (_context.People == null)
+        //    {
+        //        response.Message = "Login incorrecto";
+        //        return NotFound(response);
+        //    }
+
+        //    Person p = new();
+
+        //    p.EmailPerson = correo;
+        //    p.PasswordPerson = pass;
+
+        //}
+
 
         // DELETE: api/People/5
         [HttpDelete("{id}")]

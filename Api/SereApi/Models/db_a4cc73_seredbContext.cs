@@ -448,6 +448,11 @@ namespace SereApi.Models
             OnModelCreatingPartial(modelBuilder);
         }
 
+        internal Task FindByNameAsync(string emailPerson)
+        {
+            throw new NotImplementedException();
+        }
+
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }
