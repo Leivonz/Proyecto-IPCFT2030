@@ -33,6 +33,8 @@ namespace SereApi.Models
         public virtual DbSet<Project> Projects { get; set; } = null!;
         public virtual DbSet<ProjectObjective> ProjectObjectives { get; set; } = null!;
         public virtual DbSet<ProjectStatus> ProjectStatuses { get; set; } = null!;
+        public virtual DbSet<WebProject> WebProjects { get; set; } = null!;
+        public virtual DbSet<WebProjectPerson> WebProjectPeople { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -394,6 +396,53 @@ namespace SereApi.Models
                 entity.Property(e => e.NameProjectStatus)
                     .HasMaxLength(150)
                     .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<WebProject>(entity =>
+            {
+                entity.HasKey(e => e.IdWebProject)
+                    .HasName("PK__WebProje__1487D9985289D451");
+
+                entity.ToTable("WebProject");
+
+                entity.Property(e => e.Description)
+                    .IsUnicode(false)
+                    .HasColumnName("description");
+
+                entity.Property(e => e.Img)
+                    .IsUnicode(false)
+                    .HasColumnName("img");
+
+                entity.Property(e => e.Name)
+                    .IsUnicode(false)
+                    .HasColumnName("name");
+
+                entity.Property(e => e.Status)
+                    .HasMaxLength(11)
+                    .IsUnicode(false)
+                    .HasColumnName("status");
+
+                entity.Property(e => e.Title)
+                    .IsUnicode(false)
+                    .HasColumnName("title");
+            });
+
+            modelBuilder.Entity<WebProjectPerson>(entity =>
+            {
+                entity.HasKey(e => e.IdWebProjectPerson)
+                    .HasName("PK__WebProje__CD3180C03B44A858");
+
+                entity.ToTable("WebProjectPerson");
+
+                entity.HasOne(d => d.IdPersonNavigation)
+                    .WithMany(p => p.WebProjectPeople)
+                    .HasForeignKey(d => d.IdPerson)
+                    .HasConstraintName("FkPersonWebProject");
+
+                entity.HasOne(d => d.IdWebProjectNavigation)
+                    .WithMany(p => p.WebProjectPeople)
+                    .HasForeignKey(d => d.IdWebProject)
+                    .HasConstraintName("FkWebProject");
             });
 
             OnModelCreatingPartial(modelBuilder);
