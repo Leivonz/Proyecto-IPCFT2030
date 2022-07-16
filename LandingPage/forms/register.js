@@ -23,3 +23,4 @@ button.addEventListener("click", () => {
     //body: JSON.stringify(newPost),
   }).then((res) => res.json());
 });
+
