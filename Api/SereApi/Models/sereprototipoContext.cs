@@ -17,6 +17,7 @@ namespace SereApi.Models
         }
 
         public virtual DbSet<Country> Countries { get; set; } = null!;
+        public virtual DbSet<EmailList> EmailLists { get; set; } = null!;
         public virtual DbSet<Event> Events { get; set; } = null!;
         public virtual DbSet<EventType> EventTypes { get; set; } = null!;
         public virtual DbSet<Objective> Objectives { get; set; } = null!;
@@ -41,7 +42,7 @@ namespace SereApi.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("server=SQL5109.site4now.net; Initial Catalog=db_a4cc73_seredb; user id=db_a4cc73_seredb_admin; password=Sere2022DB;;Trusted_Connection=False;");
+                optionsBuilder.UseSqlServer("server=sereprototipo.mssql.somee.com; Initial Catalog=sereprototipo; user id=sereudec_SQLLogin_1; password=5q5foojbaq;;Trusted_Connection=False;");
             }
         }
 
@@ -50,7 +51,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Country>(entity =>
             {
                 entity.HasKey(e => e.IdCountry)
-                    .HasName("PK__Country__F99F104DB5DC134B");
+                    .HasName("PK__Country__F99F104D13CB7231");
 
                 entity.ToTable("Country");
 
@@ -59,10 +60,20 @@ namespace SereApi.Models
                     .IsUnicode(false);
             });
 
+            modelBuilder.Entity<EmailList>(entity =>
+            {
+                entity.HasKey(e => e.IdEmail)
+                    .HasName("PK__EmailLis__E80F8BD4BEBE366B");
+
+                entity.ToTable("EmailList");
+
+                entity.Property(e => e.Email).IsUnicode(false);
+            });
+
             modelBuilder.Entity<Event>(entity =>
             {
                 entity.HasKey(e => e.IdEvent)
-                    .HasName("PK__Event__E0B2AF39F3D3B7C0");
+                    .HasName("PK__Event__E0B2AF39D6AB605D");
 
                 entity.ToTable("Event");
 
@@ -97,7 +108,7 @@ namespace SereApi.Models
             modelBuilder.Entity<EventType>(entity =>
             {
                 entity.HasKey(e => e.IdEvent)
-                    .HasName("PK__EventTyp__E0B2AF39BF3923F8");
+                    .HasName("PK__EventTyp__E0B2AF3953A08174");
 
                 entity.ToTable("EventType");
 
@@ -109,7 +120,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Objective>(entity =>
             {
                 entity.HasKey(e => e.IdObjective)
-                    .HasName("PK__Objectiv__76514F975331A6E8");
+                    .HasName("PK__Objectiv__76514F97D47D83BA");
 
                 entity.ToTable("Objective");
 
@@ -127,7 +138,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Organization>(entity =>
             {
                 entity.HasKey(e => e.IdOrganization)
-                    .HasName("PK__Organiza__C14A1C2729D456E8");
+                    .HasName("PK__Organiza__C14A1C2735CA8AAC");
 
                 entity.ToTable("Organization");
 
@@ -169,7 +180,7 @@ namespace SereApi.Models
             modelBuilder.Entity<OrganizationObjective>(entity =>
             {
                 entity.HasKey(e => e.IdOrganizationObjective)
-                    .HasName("PK__Organiza__4D7C5147BE9C1343");
+                    .HasName("PK__Organiza__4D7C5147150D76DA");
 
                 entity.ToTable("OrganizationObjective");
 
@@ -187,7 +198,7 @@ namespace SereApi.Models
             modelBuilder.Entity<OrganizationPerson>(entity =>
             {
                 entity.HasKey(e => e.IdOrganizationPerson)
-                    .HasName("PK__Organiza__573676C932804B04");
+                    .HasName("PK__Organiza__573676C9D341927D");
 
                 entity.ToTable("OrganizationPerson");
 
@@ -205,7 +216,7 @@ namespace SereApi.Models
             modelBuilder.Entity<OrganizationProject>(entity =>
             {
                 entity.HasKey(e => e.IdOrganizationProject)
-                    .HasName("PK__Organiza__171D148FCDD2E282");
+                    .HasName("PK__Organiza__171D148FDC60E45A");
 
                 entity.ToTable("OrganizationProject");
 
@@ -223,7 +234,7 @@ namespace SereApi.Models
             modelBuilder.Entity<OrganizationStatus>(entity =>
             {
                 entity.HasKey(e => e.IdOrganizationStatus)
-                    .HasName("PK__Organiza__EF65CC7FD80B763F");
+                    .HasName("PK__Organiza__EF65CC7F35A6A4EF");
 
                 entity.ToTable("OrganizationStatus");
 
@@ -235,7 +246,7 @@ namespace SereApi.Models
             modelBuilder.Entity<OrganizationType>(entity =>
             {
                 entity.HasKey(e => e.IdOrganizationType)
-                    .HasName("PK__Organiza__4D4A4C699FC6CF8C");
+                    .HasName("PK__Organiza__4D4A4C69FCCBD449");
 
                 entity.ToTable("OrganizationType");
 
@@ -247,7 +258,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Person>(entity =>
             {
                 entity.HasKey(e => e.IdPerson)
-                    .HasName("PK__Person__A5D4E15B183BCF7B");
+                    .HasName("PK__Person__A5D4E15BFDAFB55E");
 
                 entity.ToTable("Person");
 
@@ -283,7 +294,7 @@ namespace SereApi.Models
             modelBuilder.Entity<PersonEvent>(entity =>
             {
                 entity.HasKey(e => e.IdPersonEvent)
-                    .HasName("PK__PersonEv__7E6E2035A0FCDD17");
+                    .HasName("PK__PersonEv__7E6E20355C783B4C");
 
                 entity.ToTable("PersonEvent");
 
@@ -303,7 +314,7 @@ namespace SereApi.Models
             modelBuilder.Entity<PersonObjective>(entity =>
             {
                 entity.HasKey(e => e.IdPersonObjective)
-                    .HasName("PK__PersonOb__E2F376D75E129ABC");
+                    .HasName("PK__PersonOb__E2F376D772AB60BB");
 
                 entity.ToTable("PersonObjective");
 
@@ -321,7 +332,7 @@ namespace SereApi.Models
             modelBuilder.Entity<PersonProject>(entity =>
             {
                 entity.HasKey(e => e.IdPersonProject)
-                    .HasName("PK__PersonPr__8D705DB68C19F711");
+                    .HasName("PK__PersonPr__8D705DB681A2B4E5");
 
                 entity.ToTable("PersonProject");
 
@@ -341,7 +352,7 @@ namespace SereApi.Models
             modelBuilder.Entity<Project>(entity =>
             {
                 entity.HasKey(e => e.IdProject)
-                    .HasName("PK__Project__B9E13D2406F94A9F");
+                    .HasName("PK__Project__B9E13D24C4A47ECB");
 
                 entity.ToTable("Project");
 
@@ -371,7 +382,7 @@ namespace SereApi.Models
             modelBuilder.Entity<ProjectObjective>(entity =>
             {
                 entity.HasKey(e => e.IdProjectObjective)
-                    .HasName("PK__ProjectO__A2C5D3BE82010628");
+                    .HasName("PK__ProjectO__A2C5D3BE5A6A788E");
 
                 entity.ToTable("ProjectObjective");
 
@@ -389,7 +400,7 @@ namespace SereApi.Models
             modelBuilder.Entity<ProjectStatus>(entity =>
             {
                 entity.HasKey(e => e.IdProjectStatus)
-                    .HasName("PK__ProjectS__E0824C8746D0B10B");
+                    .HasName("PK__ProjectS__E0824C8734BC3882");
 
                 entity.ToTable("ProjectStatus");
 
@@ -401,7 +412,7 @@ namespace SereApi.Models
             modelBuilder.Entity<WebProject>(entity =>
             {
                 entity.HasKey(e => e.IdWebProject)
-                    .HasName("PK__WebProje__1487D9985289D451");
+                    .HasName("PK__WebProje__1487D998829E0725");
 
                 entity.ToTable("WebProject");
 
@@ -430,7 +441,7 @@ namespace SereApi.Models
             modelBuilder.Entity<WebProjectPerson>(entity =>
             {
                 entity.HasKey(e => e.IdWebProjectPerson)
-                    .HasName("PK__WebProje__CD3180C03B44A858");
+                    .HasName("PK__WebProje__CD3180C0259A9529");
 
                 entity.ToTable("WebProjectPerson");
 
@@ -446,11 +457,6 @@ namespace SereApi.Models
             });
 
             OnModelCreatingPartial(modelBuilder);
-        }
-
-        internal Task FindByNameAsync(string emailPerson)
-        {
-            throw new NotImplementedException();
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
