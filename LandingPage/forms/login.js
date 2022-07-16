@@ -18,10 +18,6 @@ function login() {
     .catch((err) => {
       console.error(err);
     });
-  if (API === true)
-  {
-    window.location.href = "/LandingPage/Intranet/index.html";
-  }
 }
 
 // var jwt = require('jwt-simple');

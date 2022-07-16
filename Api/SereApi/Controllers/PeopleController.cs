@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SereApi.Models;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Cryptography;
 
 namespace SereApi.Controllers
 {
@@ -122,9 +123,10 @@ namespace SereApi.Controllers
 
         // POST: api/People
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<Person>> PostPerson(String nombre, String apellido, String pass, String correo, String numero, int nacionalidad, String organizacion)
-        {
+        public static Person person = new Person();
+        [HttpPost("register")]
+        public async Task<ActionResult<Person>> PostPerson(String nombre, String apellido, String pass, String correo, String numero, int nacionalidad, String organizacion, Person request)
+        {       
             Response response = new();
             if (_context.People == null)
             {
@@ -145,24 +147,21 @@ namespace SereApi.Controllers
             response.Success = true;
             response.Message = "Succesfully saved";
             return Ok(response);
+            CreatePasswordHash(request.PasswordPerson, out byte[] passwordHash, out byte[] passwordSalt);
+            person.EmailPerson = request.EmailPerson;
+
+            return (person);
         }
 
-        //[HttpPost]
-        //public async Task<ActionResult<Login>> PostLogin(String pass, String correo)
-        //{
-        //    Response response = new();
-        //    if (_context.People == null)
-        //    {
-        //        response.Message = "Login incorrecto";
-        //        return NotFound(response);
-        //    }
+        private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
+        {
+            using(var hmac = new HMACSHA512())
+            {
+                passwordSalt = hmac.Key;
+                passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+            }
+        }
 
-        //    Person p = new();
-
-        //    p.EmailPerson = correo;
-        //    p.PasswordPerson = pass;
-
-        //}
 
 
         // DELETE: api/People/5
