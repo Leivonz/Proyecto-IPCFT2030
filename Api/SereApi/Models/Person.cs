@@ -32,5 +32,4 @@ namespace SereApi.Models
         public virtual ICollection<Project> Projects { get; set; }
         public virtual ICollection<WebProjectPerson> WebProjectPeople { get; set; }
     }
-    
 }

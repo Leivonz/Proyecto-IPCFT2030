@@ -11,35 +11,35 @@ namespace SereApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CountriesController : ControllerBase
+    public class EmailListsController : ControllerBase
     {
         private readonly SereDbContext _context = new();
 
-        // GET: api/Countries
+        // GET: api/EmailLists
         [HttpGet]
-        public async Task<IActionResult> GetCountries()
+        public async Task<IActionResult> GetEmailLists()
         {
             Response response = new();
             try
             {
-                if (_context.Countries == null)
+                if (_context.EmailLists == null)
                 {
-                    response.Message = "Table 'Countries' doesn't exist";
+                    response.Message = "Table 'EmailLists' doesn't exist";
                     return NotFound(response);
                 }
-                var countries = await _context.Countries.Select(x => new
+                var emails = await _context.EmailLists.Select(x => new
                 {
-                    id = x.IdCountry,
-                    name = x.NameCountry
+                    id = x.IdEmail,
+                    email = x.Email,
                 }).ToListAsync();
-                if (countries != null)
+                if (emails != null)
                 {
-                    if (countries.Count == 0)
+                    if (emails.Count == 0)
                     {
                         response.Message = "No data";
                     }
                     response.Success = true;
-                    response.Data = countries;
+                    response.Data = emails;
                 }
                 return Ok(response);
             }
@@ -50,28 +50,28 @@ namespace SereApi.Controllers
             }
         }
 
-        // GET: api/Countries/5
+        // GET: api/EmailLists/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetCountry(int id)
+        public async Task<IActionResult> GetEmailList(int id)
         {
             Response response = new();
             try
             {
-                if (_context.Countries == null)
+                if (_context.EmailLists == null)
                 {
                     response.Message = "Table doesnt exist";
                     return NotFound(response);
                 }
-                var findCountry = await _context.EventTypes.FindAsync(id);
-                if (findCountry == null)
+                var findEmail = await _context.EmailLists.FindAsync(id);
+                if (findEmail == null)
                 {
-                    response.Message = $"Country with Id: {id} not found";
+                    response.Message = $"Email with Id: {id} not found";
                     return NotFound(response);
                 }
-                if (findCountry != null)
+                if (findEmail != null)
                 {
                     response.Success = true;
-                    response.Data = findCountry;
+                    response.Data = findEmail;
                 }
                 return Ok(response);
 
@@ -82,18 +82,17 @@ namespace SereApi.Controllers
                 return BadRequest(response);
             }
         }
-
-        // PUT: api/Countries/5
+        // PUT: api/EmailLists/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCountry(int id, Country country)
+        public async Task<IActionResult> PutEmailList(int id, EmailList emailList)
         {
-            if (id != country.IdCountry)
+            if (id != emailList.IdEmail)
             {
                 return BadRequest();
             }
 
-            _context.Entry(country).State = EntityState.Modified;
+            _context.Entry(emailList).State = EntityState.Modified;
 
             try
             {
@@ -101,7 +100,7 @@ namespace SereApi.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CountryExists(id))
+                if (!EmailListExists(id))
                 {
                     return NotFound();
                 }
@@ -114,58 +113,56 @@ namespace SereApi.Controllers
             return NoContent();
         }
 
-        // POST: api/Countries
+        // POST: api/EmailLists
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Country>> PostCountry(string NameCountry)
+        public async Task<ActionResult<EmailList>> PostEmailList(String emailList)
         {
             Response response = new();
-            if (_context.Countries == null)
+            if (_context.EmailLists == null)
             {
                 //return Problem("Entity set 'SereDbContext.Countries'  is null.");
-                response.Message = "Table 'Countries' doesn't exist";
+                response.Message = "Table 'EmailLists' doesn't exist";
                 return NotFound(response);
             }
-            Country country = new();
-            country.NameCountry = NameCountry;
-            _context.Countries.Add(country);
+            EmailList email = new();
+            email.Email = emailList;
+            _context.EmailLists.Add(email);
             await _context.SaveChangesAsync();
             response.Success = true;
             response.Message = "Succesfully saved";
-            response.Data = NameCountry;
+            response.Data = email;
             return Ok(response);
         }
-
-        // DELETE: api/Countries/5
+        // DELETE: api/EmailLists/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCountry(int id)
+        public async Task<IActionResult> DeleteEmailList(int id)
         {
-
             Response response = new();
-            if (_context.Countries == null)
+            if (_context.EmailLists == null)
             {
-                response.Message = "Table 'Country' doesn't exist";
+                response.Message = "Table 'EmailLists' doesn't exist";
                 return NotFound(response);
-                   
+
             }
-            var country = await _context.Countries.FindAsync(id);
-            if (country == null)
+            var email = await _context.EmailLists.FindAsync(id);
+            if (email == null)
             {
-                response.Message = $"No country with id: {id}";
+                response.Message = $"No email with id: {id}";
                 return NotFound(response);
             }
 
-            _context.Countries.Remove(country);
+            _context.EmailLists.Remove(email);
             await _context.SaveChangesAsync();
             response.Success = true;
-            response.Message = $"Successfully deleted country with id: {id}";
-            response.Data = country;
+            response.Message = $"Successfully deleted email with id: {id}";
+            response.Data = email;
             return Ok(response);
         }
 
-        private bool CountryExists(int id)
+        private bool EmailListExists(int id)
         {
-            return (_context.Countries?.Any(e => e.IdCountry == id)).GetValueOrDefault();
+            return (_context.EmailLists?.Any(e => e.IdEmail == id)).GetValueOrDefault();
         }
     }
 }
