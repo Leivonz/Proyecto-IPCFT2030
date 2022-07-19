@@ -100,7 +100,7 @@ namespace SereApi.Controllers
         // POST: api/Events
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Event>> PostEvent( String name, DateTime date, String description, byte img)
+        public async Task<ActionResult<Event>> PostEvent( String name, DateTime date, String description, long size)
         {
             Response response = new();
             if (_context.Events == null)

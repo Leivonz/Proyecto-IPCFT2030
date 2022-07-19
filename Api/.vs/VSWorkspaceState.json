@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SereApi",
     "\\SereApi\\Models"
   ],
-  "SelectedNode": "\\SereApi\\Models\\Person.cs",
+  "SelectedNode": "\\SereApi.sln",
   "PreviewInSolutionExplorer": false
 }
