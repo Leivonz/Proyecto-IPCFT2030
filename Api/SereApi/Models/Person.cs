@@ -18,7 +18,7 @@ namespace SereApi.Models
         public int IdPerson { get; set; }
         public string NamePerson { get; set; } = null!;
         public string SurnamePerson { get; set; } = null!;
-        public string EmailPerson { get; set; } = String.Empty;
+        public string EmailPerson { get; set; } = null!;
         public string PhonePerson { get; set; } = null!;
         public string PasswordPerson { get; set; } = null!;
         public string OrganizationName { get; set; } = null!;

@@ -1,23 +1,24 @@
 function login() {
   let form = document.forms["formulario"];
   let fd = new FormData(form);
-  let data = {};
-  for (let [key, prop] of fd) {
-    data[key] = prop;
-  }
-
+  let data = `?pass=${document.getElementById("pass").value}
+  &correo=${document.getElementById("correo").value}`;
+  console.log(data);
   const API = "https://localhost:7146/api/Login";
 
-  fetch(API, {
+  fetch(API + data, {
     method: "post",
-    headers: {
-      "Content-Type": "application/json",
-    },
+    // headers: {
+    //   "Content-Type": "application/json",
+    // },
   })
-    .then((data) => data.json())
-    .catch((err) => {
-      console.error(err);
-    });
+    .then((res) => res.text())
+    .then(p => {
+      if (p == "hola")
+      {
+        window.location.href = '/Intranet/index.html'
+      }
+    })
 }
 
 // var jwt = require('jwt-simple');

@@ -123,9 +123,8 @@ namespace SereApi.Controllers
 
         // POST: api/People
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        public static Person person = new Person();
-        [HttpPost("register")]
-        public async Task<ActionResult<Person>> PostPerson(String nombre, String apellido, String pass, String correo, String numero, int nacionalidad, String organizacion, Person request)
+        [HttpPost]
+        public async Task<ActionResult<Person>> PostPerson(String nombre, String apellido, String pass, String correo, String numero, int nacionalidad, String organizacion)
         {       
             Response response = new();
             if (_context.People == null)
@@ -147,21 +146,7 @@ namespace SereApi.Controllers
             response.Success = true;
             response.Message = "Succesfully saved";
             return Ok(response);
-            CreatePasswordHash(request.PasswordPerson, out byte[] passwordHash, out byte[] passwordSalt);
-            person.EmailPerson = request.EmailPerson;
-
-            return (person);
         }
-
-        private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
-        {
-            using(var hmac = new HMACSHA512())
-            {
-                passwordSalt = hmac.Key;
-                passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
-            }
-        }
-
 
 
         // DELETE: api/People/5

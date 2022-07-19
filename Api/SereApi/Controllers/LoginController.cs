@@ -67,15 +67,13 @@ namespace SereApi.Controllers
                 response.Message = "Table 'People' doesn't exist";
                 return NotFound(response);
             }
-            Person p = new();
-            p.PasswordPerson = pass;
-            p.EmailPerson = correo;
+            var p = await _context.People.FirstOrDefaultAsync(x => x.PasswordPerson == pass && x.EmailPerson == correo);
+            if (p != null)
+            {
+                return Ok("hola");
+            }
+            return BadRequest("Datos no existen");
 
-            _context.People.Add(p);
-            await _context.SaveChangesAsync();
-            response.Success = true;
-            response.Message = "Succesfully saved";
-            return Ok(response);
         }
 
         // PUT api/<LoginController>/5
