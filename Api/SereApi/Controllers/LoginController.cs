@@ -72,7 +72,7 @@ namespace SereApi.Controllers
             {
                 return Ok("hola");
             }
-            return BadRequest("Datos no existen");
+            return BadRequest("Datos inexistentes");
 
         }
 

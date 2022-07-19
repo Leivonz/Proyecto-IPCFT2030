@@ -87,6 +87,10 @@ namespace SereApi.Models
                     .HasMaxLength(60)
                     .IsUnicode(false);
 
+                entity.Property(e => e.ImagenEvento)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
                 entity.HasOne(d => d.IdEventTypeNavigation)
                     .WithMany(p => p.Events)
                     .HasForeignKey(d => d.IdEventType)
@@ -98,11 +102,6 @@ namespace SereApi.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FkEventOrganization");
 
-                entity.HasOne(d => d.ObjectiveEventNavigation)
-                    .WithMany(p => p.Events)
-                    .HasForeignKey(d => d.ObjectiveEvent)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FkEventObjective");
             });
 
             modelBuilder.Entity<EventType>(entity =>

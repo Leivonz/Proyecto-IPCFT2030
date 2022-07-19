@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SereApi.Models;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace SereApi.Controllers
 {
@@ -34,9 +37,7 @@ namespace SereApi.Controllers
                     name = x.NameEvent,
                     date = x.DateEvent,
                     description = x.DescriptionEvent,
-                    objective = x.ObjectiveEvent,
                     idEventType = x.IdEventType,
-                    size = x.SizeEvent,
                     idOrganization = x.IdOrganization
                 }).ToListAsync();
                 if (events != null)
@@ -89,11 +90,17 @@ namespace SereApi.Controllers
 
             return NoContent();
         }
+        private readonly IWebHostEnvironment _env;
+
+        public EventsController (IWebHostEnvironment env)
+        {
+            _env = env;
+        }
 
         // POST: api/Events
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Event>> PostEvent( String name, DateTime date, String description, int objective, int size)
+        public async Task<ActionResult<Event>> PostEvent( String name, DateTime date, String description, byte img)
         {
             Response response = new();
             if (_context.Events == null)
@@ -105,8 +112,7 @@ namespace SereApi.Controllers
             e.NameEvent = name;
             e.DateEvent = date;
             e.DescriptionEvent = description;
-            e.ObjectiveEvent = objective;
-            e.SizeEvent = size;
+            e.ImagenEvento = img;
 
 
             _context.Events.Add(e);
@@ -115,6 +121,27 @@ namespace SereApi.Controllers
             response.Message = "Succesfully saved";
             return Ok(response);
         }
+        [HttpPost("Subir_Archivos")]
+        public async Task<IActionResult> Post(List<IFormFile> files)
+        {
+            long size = files.Sum(f => f.Length);
+
+            var filePath = Path.GetTempFileName();
+
+            foreach (var formFile in files)
+            {
+                if (formFile.Length > 0)
+                {
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await formFile.CopyToAsync(stream);
+                    }
+                }
+            }
+
+            return Ok(new {count = files.Count, size, filePath});
+        }
+        
 
         // DELETE: api/Events/5
         [HttpDelete("{id}")]
