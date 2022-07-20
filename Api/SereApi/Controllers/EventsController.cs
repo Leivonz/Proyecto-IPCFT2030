@@ -90,17 +90,11 @@ namespace SereApi.Controllers
 
             return NoContent();
         }
-        private readonly IWebHostEnvironment _env;
-
-        public EventsController (IWebHostEnvironment env)
-        {
-            _env = env;
-        }
 
         // POST: api/Events
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Event>> PostEvent( String name, DateTime date, String description, long size)
+        public async Task<ActionResult<Event>> PostEvent( String name, DateTime date, String description, string img)
         {
             Response response = new();
             if (_context.Events == null)
@@ -121,27 +115,6 @@ namespace SereApi.Controllers
             response.Message = "Succesfully saved";
             return Ok(response);
         }
-        [HttpPost("Subir_Archivos")]
-        public async Task<IActionResult> Post(List<IFormFile> files)
-        {
-            long size = files.Sum(f => f.Length);
-
-            var filePath = Path.GetTempFileName();
-
-            foreach (var formFile in files)
-            {
-                if (formFile.Length > 0)
-                {
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await formFile.CopyToAsync(stream);
-                    }
-                }
-            }
-
-            return Ok(new {count = files.Count, size, filePath});
-        }
-        
 
         // DELETE: api/Events/5
         [HttpDelete("{id}")]

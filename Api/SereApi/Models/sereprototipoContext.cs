@@ -36,8 +36,7 @@ namespace SereApi.Models
         public virtual DbSet<ProjectStatus> ProjectStatuses { get; set; } = null!;
         public virtual DbSet<WebProject> WebProjects { get; set; } = null!;
         public virtual DbSet<WebProjectPerson> WebProjectPeople { get; set; } = null!;
-        public virtual DbSet<Event> MyProperty { get; set; };
-
+        public virtual DbSet<Event> MyProperty { get; set; } = null!;
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
