@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace SereApi.Models
 {
-    public partial class SereDbContext : DbContext
+    public partial class SereDb : DbContext
     {
-        public SereDbContext()
+        public SereDb()
         {
         }
 
-        public SereDbContext(DbContextOptions<SereDbContext> options)
+        public SereDb(DbContextOptions<SereDb> options)
             : base(options)
         {
         }
@@ -36,7 +36,7 @@ namespace SereApi.Models
         public virtual DbSet<ProjectStatus> ProjectStatuses { get; set; } = null!;
         public virtual DbSet<WebProject> WebProjects { get; set; } = null!;
         public virtual DbSet<WebProjectPerson> WebProjectPeople { get; set; } = null!;
-        public virtual DbSet<Event> MyProperty { get; set; } = null!;
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -83,12 +83,10 @@ namespace SereApi.Models
                     .HasMaxLength(255)
                     .IsUnicode(false);
 
+                entity.Property(e => e.ImagenEvento).IsUnicode(false);
+
                 entity.Property(e => e.NameEvent)
                     .HasMaxLength(60)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.ImagenEvento)
-                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.IdEventTypeNavigation)
@@ -102,6 +100,11 @@ namespace SereApi.Models
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FkEventOrganization");
 
+                entity.HasOne(d => d.ObjectiveEventNavigation)
+                    .WithMany(p => p.Events)
+                    .HasForeignKey(d => d.ObjectiveEvent)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FkEventObjective");
             });
 
             modelBuilder.Entity<EventType>(entity =>
