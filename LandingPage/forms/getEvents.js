@@ -1,6 +1,5 @@
-javascript 
 window.onload = function () {
-  let API = "https://localhost:7146/api/Events";
+  let API = "http://sere.somee.com/Api/Events";
   fetch(API)
     .then((response) => response.json())
     //.then(data => showData(data))

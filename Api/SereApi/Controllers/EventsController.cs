@@ -98,6 +98,8 @@ namespace SereApi.Controllers
         public async Task<IActionResult> PostEvent([FromForm] EventeFile eventFile)
 
         {
+            int a = 10;//idEventType
+            int b = 10;//IdOrganization
             Response response = new();
             if (_context.Events == null)
             {
@@ -108,6 +110,9 @@ namespace SereApi.Controllers
             e.NameEvent = eventFile.name;
             e.DateEvent = eventFile.date;
             e.DescriptionEvent = eventFile.description;
+            e.IdEventType = 1;
+            e.IdOrganization = 2;
+            e.ObjectiveEvent = 1;
             if (eventFile.file != null)
             {
                 string strFileExtension = Path.GetExtension(eventFile.file.FileName);
@@ -126,6 +131,7 @@ namespace SereApi.Controllers
                 e.ImagenEvento = null!;
                 
             }
+
             _context.Events.Add(e);
             await _context.SaveChangesAsync();
             response.Success = true;
