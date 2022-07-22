@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adolfo\\Desktop\\Api\\SereApi\\SereApi.csproj": {}
+    "C:\\Users\\Adolfo\\Documents\\Github\\New folder (4)\\Proyecto-IPCFT2030\\Api\\SereApi\\SereApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adolfo\\Desktop\\Api\\SereApi\\SereApi.csproj": {
+    "C:\\Users\\Adolfo\\Documents\\Github\\New folder (4)\\Proyecto-IPCFT2030\\Api\\SereApi\\SereApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adolfo\\Desktop\\Api\\SereApi\\SereApi.csproj",
+        "projectUniqueName": "C:\\Users\\Adolfo\\Documents\\Github\\New folder (4)\\Proyecto-IPCFT2030\\Api\\SereApi\\SereApi.csproj",
         "projectName": "SereApi",
-        "projectPath": "C:\\Users\\Adolfo\\Desktop\\Api\\SereApi\\SereApi.csproj",
+        "projectPath": "C:\\Users\\Adolfo\\Documents\\Github\\New folder (4)\\Proyecto-IPCFT2030\\Api\\SereApi\\SereApi.csproj",
         "packagesPath": "C:\\Users\\Adolfo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adolfo\\Desktop\\Api\\SereApi\\obj\\",
+        "outputPath": "C:\\Users\\Adolfo\\Documents\\Github\\New folder (4)\\Proyecto-IPCFT2030\\Api\\SereApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adolfo\\AppData\\Roaming\\NuGet\\NuGet.Config",

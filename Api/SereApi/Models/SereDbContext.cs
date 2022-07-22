@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace SereApi.Models
 {
-    public partial class SereDb : DbContext
+    public partial class SereDbContext : DbContext
     {
-        public SereDb()
+        public SereDbContext()
         {
         }
 
-        public SereDb(DbContextOptions<SereDb> options)
+        public SereDbContext(DbContextOptions<SereDbContext> options)
             : base(options)
         {
         }
