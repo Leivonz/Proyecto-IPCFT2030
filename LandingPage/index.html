@@ -92,9 +92,9 @@
               </div>
               <h3><a href="#">Evento 1</a></h3>
 
-              <p>Seminario medio ambiente</p>
-              <p>Los Angeles</p>
-              <p>12/12/2022</p>
+              <p></p>
+              <p></p>
+              <p></p>
 
             </div>
           </div>
@@ -463,9 +463,17 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
+  <script>
+    let API = "https://localhost:7146/api/Events";
+fetch(API)
+  .then(response => response.json)
+  .then(data => console.log(data))
+  .catch(error => console.log(error));
+
+  </script>
   <script src="assets/js/main.js"></script>
   <script src="forms/suscribirse.js"></script>
-  <script src="/LandingPage/forms/getEvents.js"></script>
+  <script src="forms/getEvents.js"></script>
 
 
 
