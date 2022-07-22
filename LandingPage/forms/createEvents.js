@@ -1,14 +1,19 @@
-const button = document.getElementById("button");
+document.getElementById("btnGuardar").addEventListener('click', async() => {
+  console.log('asd')
+  const url = 'https://localhost:7146/api/Events'    
+  let archivo = new FormData()
+  archivo.append('date', document.getElementById('FechaEvento').value)
+  archivo.append('description', document.getElementById('descrEvento').value)
+  archivo.append('file', document.getElementById('imagenEvento').files[0])    
+  archivo.append('name', document.getElementById('TituloEvento').value)
 
-button.addEventListener("click", () => {
-  const newPost = `?name=${document.getElementById("TituloEvento").value.trim()}
-  &date=${document.querySelector('input[type="date"]').value.trim()}
-  &description=${document.getElementById("descrEvento").value}
-  &file=${document.getElementById("fileupload").value}
-  `;
+  const resp = await fetch(url, {
+      method: 'POST',
+      body: archivo
+  }).then(resp => resp.json())
+  .then(data => {
+      console.log(data)
+  })
+  
+})
 
-  fetch("https://localhost:7146/api/Events" + newPost, {
-    method: "POST",
-    headers: { "Content-Type": "multipart/form-data" },
-  }).then((res) => res.json());
-});

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Crear proyecto </title>
+    <title>Crear proyecto</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -49,11 +49,12 @@
     <header id="header" class="header fixed-top d-flex align-items-center">
       <div class="d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-          <img src="/full/Intranet/Intranet/assets/img/logosere.png" alt="">
+          <img src="/full/Intranet/Intranet/assets/img/logosere.png" alt="" />
           <span class="d-none d-lg-block">SERE</span>
         </a>
         <i class="bi bi-list toggle-sidebar-btn"></i>
-      </div><!-- End Logo -->
+      </div>
+      <!-- End Logo -->
 
       <div class="search-bar">
         <form
@@ -92,14 +93,11 @@
             <ul
               class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications"
             >
-              <li class="dropdown-header">
-                No tienes notificaciones
-              </li>
+              <li class="dropdown-header">No tienes notificaciones</li>
               <li>
                 <hr class="dropdown-divider" />
               </li>
 
-              
               <li>
                 <hr class="dropdown-divider" />
               </li>
@@ -120,14 +118,11 @@
             <ul
               class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages"
             >
-              <li class="dropdown-header">
-                No tienes mensajes
-              </li>
+              <li class="dropdown-header">No tienes mensajes</li>
               <li>
                 <hr class="dropdown-divider" />
               </li>
 
-              
               <li class="dropdown-footer">
                 <a href="#">Ver todos los mensajes</a>
               </li>
@@ -137,60 +132,81 @@
           <!-- End Messages Nav -->
 
           <li class="nav-item dropdown pe-3">
+            <a
+              class="nav-link nav-profile d-flex align-items-center pe-0"
+              href="#"
+              data-bs-toggle="dropdown"
+            >
+              <img
+                src="assets/img/guest.jpg"
+                alt="Profile"
+                class="rounded-circle"
+              />
+              <span class="d-none d-md-block dropdown-toggle ps-2"
+                >Usuario</span
+              > </a
+            ><!-- End Profile Iamge Icon -->
 
-            <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-              <img src="assets/img/guest.jpg" alt="Profile" class="rounded-circle">
-              <span class="d-none d-md-block dropdown-toggle ps-2">Usuario</span>
-            </a><!-- End Profile Iamge Icon -->
-  
-            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <ul
+              class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile"
+            >
               <li class="dropdown-header">
                 <h6>Usuario</h6>
                 <span>Virginio Gomez</span>
               </li>
               <li>
-                <hr class="dropdown-divider">
+                <hr class="dropdown-divider" />
               </li>
-  
+
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="users-profile.html"
+                >
                   <i class="bi bi-person"></i>
                   <span>Mi Perfil</span>
                 </a>
               </li>
               <li>
-                <hr class="dropdown-divider">
+                <hr class="dropdown-divider" />
               </li>
-  
+
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="users-profile.html"
+                >
                   <i class="bi bi-gear"></i>
                   <span>Ajustes de cuenta</span>
                 </a>
               </li>
               <li>
-                <hr class="dropdown-divider">
+                <hr class="dropdown-divider" />
               </li>
-  
+
               <li>
-                <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <a
+                  class="dropdown-item d-flex align-items-center"
+                  href="pages-faq.html"
+                >
                   <i class="bi bi-question-circle"></i>
                   <span>Ayuda</span>
                 </a>
               </li>
               <li>
-                <hr class="dropdown-divider">
+                <hr class="dropdown-divider" />
               </li>
-  
+
               <li>
                 <a class="dropdown-item d-flex align-items-center" href="#">
                   <i class="bi bi-box-arrow-right"></i>
                   <span>Salir</span>
                 </a>
               </li>
-  
-            </ul><!-- End Profile Dropdown Items -->
-          </li><!-- End Profile Nav -->
+            </ul>
+            <!-- End Profile Dropdown Items -->
+          </li>
+          <!-- End Profile Nav -->
         </ul>
       </nav>
       <!-- End Icons Navigation -->
@@ -233,7 +249,6 @@
                 <i class="bi bi-circle"></i><span>Eventos creados</span>
               </a>
             </li>
-           
           </ul>
         </li>
         <!-- End Components Nav -->
@@ -263,7 +278,6 @@
                 <i class="bi bi-circle"></i><span>Crear Evento</span>
               </a>
             </li>
-            
           </ul>
         </li>
         <!-- End Forms Nav -->
@@ -295,7 +309,6 @@
         <!-- End Contact Page Nav -->
 
         <!-- End Register Page Nav -->
-
       </ul>
     </aside>
     <!-- End Sidebar-->
@@ -321,421 +334,476 @@
                 <h5 class="card-title">Crear Proyecto</h5>
 
                 <!-- General Form Elements -->
-                <form>
-                  <div class="row mb-3">
-                    <label for="inputText" id="TituloProyecto" class="col-sm-2 col-form-label"
-                      >Titulo Proyecto</label
+                <div class="row mb-3">
+                  <label
+                    for="inputText"
+                    id="TituloProyecto"
+                    class="col-sm-2 col-form-label"
+                    >Titulo Proyecto</label
+                  >
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="titulo" />
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <label
+                    for="inputEmail"
+                    id="ResponsableProyecto"
+                    class="col-sm-2 col-form-label"
+                    id="responsable"
+                    >Responsable</label
+                  >
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="responsable" />
+                  </div>
+                </div>
+
+                <!-- <div class="row mb-3">
+                  <label for="inputPassword" id="EquipoDeProyecto" class="col-sm-2 col-form-label"
+                    >Equipo del Proyecto</label
+                  >
+                  <div class="col-sm-10">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
                     >
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" />
+                      <option selected>(Seleccione)</option>
+                      <option value="1"></option>
+                      <option value="2"></option>
+                      <option value="3"></option>
+                    </select>
+                  </div>
+                </div> -->
+
+                <!-- <div class="row mb-3">
+                  <label
+                    for="inputNumber"
+                    id="ValorProyecto"
+                    class="col-sm-2 col-form-label"
+                    >Valor</label
+                  >
+                  <div class="col-sm-10">
+                    <input type="number" class="form-control" id="valor" />
+                  </div>
+                </div> -->
+
+                <div class="row mb-3">
+                  <label
+                    for="inputPassword"
+                    id="DescrProyecto"
+                    class="col-sm-2 col-form-label"
+                    >Descripcion</label
+                  >
+                  <div class="col-sm-10">
+                    <textarea
+                    id="descr"
+                      class="form-control"
+                      style="height: 100px"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <label
+                    for="inputDate"
+                    id="FechaIncioProyecto"
+                    class="col-sm-2 col-form-label"
+                    >Fecha de incio</label
+                  >
+                  <div class="col-sm-10">
+                    <input type="date" class="form-control" id="fechainicio" />
+                  </div>
+                </div>
+
+                <fieldset class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">
+                    Estado del proyecto
+                  </legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="gridRadios"
+                        id="incioEstado"
+                        value="1"
+                        checked
+                      />
+                      <label class="form-check-label" for="gridRadios1">
+                        Inicio
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="gridRadios"
+                        id="AdjuEstado"
+                        value="2"
+                      />
+                      <label class="form-check-label" for="gridRadios2">
+                        Adjudicación
+                      </label>
+                    </div>
+
+                    <div class="form-check disabled">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="gridRadios"
+                        id="DesarolloEstado"
+                        value="3"
+                      />
+                      <label class="form-check-label" for="gridRadios3">
+                        Desarrollado
+                      </label>
+                    </div>
+
+                    <div class="form-check disabled">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="gridRadios"
+                        id="FinEstado"
+                        value="4"
+                      />
+                      <script>
+                        (function () {
+                          console.log(
+                            document.getElementById('FinEstado').checked
+                          );
+                          if (
+                            document.getElementById('incioEstado').checked ==
+                            true
+                          ) {
+                            checkedvalu = 1;
+                            console.log(checkedvalu);
+                          }
+                          if (
+                            document.getElementById('AdjuEstado').checked ==
+                            true
+                          ) {
+                            checkedvalu = 2;
+                            console.log(checkedvalu);
+                          }
+                          if (
+                            document.getElementById('DesarolloEstado')
+                              .checked == true
+                          ) {
+                            checkedvalu = 3;
+                            console.log(checkedvalu);
+                          }
+                          if (
+                            document.getElementById('FinEstado').checked ==
+                            true
+                          ) {
+                            checkedvalu = 4;
+                            console.log(checkedvalu);
+                          }
+                        })();
+                      </script>
+                      <label class="form-check-label" for="gridRadios4">
+                        Finalizado
+                      </label>
                     </div>
                   </div>
+                </fieldset>
 
-                  <div class="row mb-3">
-                    <label for="inputEmail" id="ResponsableProyecto" class="col-sm-2 col-form-label"
-                      >Responsable</label
-                    >
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control" />
-                    </div>
-                  </div>
-
-                  <div class="row mb-3">
-                    <label for="inputPassword" id="EquipoDeProyecto" class="col-sm-2 col-form-label"
-                      >Equipo del Proyecto</label
-                    >
-                    <div class="col-sm-10">
-                      <select
-                        class="form-select"
-                        aria-label="Default select example"
-                      >
-                        <option selected>(Seleccione)</option>
-                        <option value="1"></option>
-                        <option value="2"></option>
-                        <option value="3"></option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div class="row mb-3">
-                    <label for="inputNumber" id="ValorProyecto" class="col-sm-2 col-form-label"
-                      >Valor</label
-                    >
-                    <div class="col-sm-10">
-                      <input type="number" class="form-control" />
-                    </div>
-                  </div>
-
-                  <div class="row mb-3">
-                    <label for="inputPassword" id="DescrProyecto" class="col-sm-2 col-form-label"
-                      >Descripcion</label
-                    >
-                    <div class="col-sm-10">
-                      <textarea
-                        class="form-control"
-                        style="height: 100px"
-                      ></textarea>
-                    </div>
-                  </div>
-
-                  <div class="row mb-3">
-                    <label for="inputDate" id="FechaIncioProyecto" class="col-sm-2 col-form-label"
-                      >Fecha de incio</label
-                    >
-                    <div class="col-sm-10">
-                      <input type="date" class="form-control" />
-                    </div>
-                  </div>
-
-                  <fieldset class="row mb-3">
-                    <legend class="col-form-label col-sm-2 pt-0">
-                      Estado del proyecto
-                    </legend>
-                    <div class="col-sm-10">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="gridRadios"
-                          id="incioEstado"
-                          value="option1"
-                          checked
-                        />
-                        <label class="form-check-label" for="gridRadios1">
-                          Inicio
-                        </label>
+                <div class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Ods</legend>
+                  <div class="col-sm-10">
+                    <label class="option_item">
+                      <input
+                        type="checkbox"
+                        id="OdsProyecto"
+                        class="checkbox"
+                      />
+                      <div class="option_inner Ods1">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS1.png"
+                            alt="ODS 1"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
+                        </div>
                       </div>
+                    </label>
 
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="gridRadios"
-                          id="AdjuEstado"
-                          value="option2"
-                        />
-                        <label class="form-check-label" for="gridRadios2">
-                          Adjudicación
-                        </label>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods2">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS2.png"
+                            alt="ODS 2"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
+                        </div>
                       </div>
+                    </label>
 
-                      <div class="form-check disabled">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="gridRadios"
-                          id="DesarolloEstado"
-                          value="option3"
-                        />
-                        <label class="form-check-label" for="gridRadios3">
-                          Desarrollado
-                        </label>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods3">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS3.png"
+                            alt="ODS 3"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
+                        </div>
                       </div>
+                    </label>
 
-                      <div class="form-check disabled">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="gridRadios"
-                          id="FinEstado"
-                          value="option4"
-                        />
-                        <label class="form-check-label" for="gridRadios4">
-                          Finalizado
-                        </label>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods4">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS4.png"
+                            alt="ODS 4"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
+                        </div>
                       </div>
-                    </div>
-                  </fieldset>
+                    </label>
 
-                  <div class="row mb-3">
-                    <legend class="col-form-label col-sm-2 pt-0">
-                      Ods
-                    </legend>
-                    <div class="col-sm-10">
-                      <label class="option_item">
-                        <input type="checkbox" id="OdsProyecto" class="checkbox" />
-                        <div class="option_inner Ods1">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS1.png"
-                              alt="ODS 1"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods5">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS5.png"
+                            alt="ODS 5"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods2">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS2.png"
-                              alt="ODS 2"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods6">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS6.png"
+                            alt="ODS 6"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods3">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS3.png"
-                              alt="ODS 3"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods7">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS7.png"
+                            alt="ODS 7"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods4">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS4.png"
-                              alt="ODS 4"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods8">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS8.png"
+                            alt="ODS 8"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods5">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS5.png"
-                              alt="ODS 5"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods9">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS9.png"
+                            alt="ODS 9"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods6">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS6.png"
-                              alt="ODS 6"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods10">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS10.png"
+                            alt="ODS 10"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods7">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS7.png"
-                              alt="ODS 7"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods11">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS11.png"
+                            alt="ODS 11"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods8">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS8.png"
-                              alt="ODS 8"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods12">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS12.png"
+                            alt="ODS 12"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods9">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS9.png"
-                              alt="ODS 9"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods13">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS13.png"
+                            alt="ODS 13"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods10">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS10.png"
-                              alt="ODS 10"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods14">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS14.png"
+                            alt="ODS 14"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods11">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS11.png"
-                              alt="ODS 11"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods15">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS15.png"
+                            alt="ODS 15"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods12">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS12.png"
-                              alt="ODS 12"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods16">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS16.png"
+                            alt="ODS 16"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
+                      </div>
+                    </label>
 
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods13">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS13.png"
-                              alt="ODS 13"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="option_inner Ods17">
+                        <div class="tickmark"></div>
+                        <div class="icon">
+                          <img
+                            src="/assets/imgproyecto/ODS imagenes/ODS17.png"
+                            alt="ODS 17"
+                            class="img-fluid"
+                            width="90"
+                            height="90"
+                          />
                         </div>
-                      </label>
-
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods14">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS14.png"
-                              alt="ODS 14"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
-                        </div>
-                      </label>
-
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods15">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS15.png"
-                              alt="ODS 15"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
-                        </div>
-                      </label>
-
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods16">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS16.png"
-                              alt="ODS 16"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
-                        </div>
-                      </label>
-
-                      <label class="option_item">
-                        <input type="checkbox" class="checkbox" />
-                        <div class="option_inner Ods17">
-                          <div class="tickmark"></div>
-                          <div class="icon">
-                            <img
-                              src="/assets/imgproyecto/ODS imagenes/ODS17.png"
-                              alt="ODS 17"
-                              class="img-fluid"
-                              width="90"
-                              height="90"
-                            />
-                          </div>
-                        </div>
-                      </label>
-
-                    </div>
+                      </div>
+                    </label>
                   </div>
+                </div>
 
-                  <div class="row mb-3">
-                    <label class="col-sm-2 col-form-label"></label>
-                    <div class="col-sm-10">
-                      <button type="submit" class="btn btn-primary">
-                        Subir Proyecto
-                      </button>
-                    </div>
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label"></label>
+                  <div class="col-sm-10">
+                    <button
+                      type="submit"
+                      class="btn btn-primary"
+                      id="btnGuardar"
+                    >
+                      Subir Proyecto
+                    </button>
                   </div>
-                </form>
+                </div>
                 <!-- End General Form Elements -->
               </div>
             </div>
@@ -746,17 +814,19 @@
     <!-- End #main -->
 
     <footer id="footer" class="footer">
- 
-
       <div class="copyright">
-        &copy; Copyright <strong><span>CodeSpitters</span></strong>. Todos los derechos reservados.
+        &copy; Copyright <strong><span>CodeSpitters</span></strong
+        >. Todos los derechos reservados.
       </div>
-      <div class="credits">
-        Diseñado por <a href="#">CodeSpitters</a>
-      </div>
-    </footer><!-- End Footer -->
-  
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <div class="credits">Diseñado por <a href="#">CodeSpitters</a></div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
     <a
       href="#"
@@ -776,5 +846,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="../forms/createProject.js"></script>
   </body>
 </html>
