@@ -4,16 +4,19 @@
 //     &imagen=${document.getElementById("imagenEvento").value}
 //     `;
 //     const contenedor = document.getElementById('cualquiercosa')
+
 let API = "https://localhost:7146/api/Events";
 fetch(API)
-  .then((response) => response.json)
-  .then((data) => showData(data))
-  .catch((error) => console.log(error));
+  .then(response => response.text())
+  .then(data => showData(data))
+  .catch(error => console.log(error));
+
 
 const showData = (data) => {
-  console.log(data);
-  let body = "";
-  for (let i = 0; i < data.length; i++) {
-    body += `<p></<p>${data[i].name}<p></<p>${data[i].description}<p></<p>${data[i].date}`
-  }
-}
+  JSON.parse(data)
+  let body = ''
+    body += `<p>${data.id}</p><p>${data.name}</p><p>${data.date}</p><p>${data.description}</p>`
+
+
+  document.getElementById('data').innerHTML = body
+};

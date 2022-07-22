@@ -108,9 +108,6 @@ namespace SereApi.Controllers
             e.NameEvent = eventFile.name;
             e.DateEvent = eventFile.date;
             e.DescriptionEvent = eventFile.description;
-            e.IdEventType = 1;
-            e.IdOrganization = 2;
-            e.ObjectiveEvent = 3;
             if (eventFile.file != null)
             {
                 string strFileExtension = Path.GetExtension(eventFile.file.FileName);
@@ -126,7 +123,7 @@ namespace SereApi.Controllers
             }
             else
             {
-                e.ImagenEvento = null;
+                e.ImagenEvento = null!;
             }
             _context.Events.Add(e);
             await _context.SaveChangesAsync();
