@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VCClvsk/vt2ikzRLfm6s5L7aYFBQSr1DMT5O2Z00N0QLOl+p17Tqtiji9cgBXAN7f1i2z/zjNdJEQMQc0hhIXw==",
+  "dgSpecHash": "XP6CS3yTgYcxSKKaQrljTNnxK7+Xjp1CXWb2gpdApiprVZiycJAP+9M9zDhdE1PjbyTuLwOD4QxDSFUtKhiaBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Adolfo\\Documents\\Github\\New folder (5)\\Proyecto-IPCFT2030\\Api\\SereApi\\SereApi.csproj",
+  "projectFilePath": "C:\\Users\\Adolfo\\Documents\\Github\\New folder (6)\\Proyecto-IPCFT2030\\Api\\SereApi\\SereApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adolfo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Adolfo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
