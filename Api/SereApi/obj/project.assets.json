@@ -9661,19 +9661,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adolfo\\.nuget\\packages\\": {}
+    "C:\\Users\\maico\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adolfo\\Documents\\Github\\New folder (4)\\Proyecto-IPCFT2030\\Api\\SereApi\\SereApi.csproj",
+      "projectUniqueName": "C:\\Users\\maico\\Desktop\\New ipc\\Proyecto-IPCFT2030\\Api\\SereApi\\SereApi.csproj",
       "projectName": "SereApi",
-      "projectPath": "C:\\Users\\Adolfo\\Documents\\Github\\New folder (4)\\Proyecto-IPCFT2030\\Api\\SereApi\\SereApi.csproj",
-      "packagesPath": "C:\\Users\\Adolfo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adolfo\\Documents\\Github\\New folder (4)\\Proyecto-IPCFT2030\\Api\\SereApi\\obj\\",
+      "projectPath": "C:\\Users\\maico\\Desktop\\New ipc\\Proyecto-IPCFT2030\\Api\\SereApi\\SereApi.csproj",
+      "packagesPath": "C:\\Users\\maico\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maico\\Desktop\\New ipc\\Proyecto-IPCFT2030\\Api\\SereApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Adolfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maico\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9736,7 +9736,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
