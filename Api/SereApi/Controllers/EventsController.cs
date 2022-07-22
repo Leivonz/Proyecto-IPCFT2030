@@ -38,7 +38,8 @@ namespace SereApi.Controllers
                     date = x.DateEvent,
                     description = x.DescriptionEvent,
                     idEventType = x.IdEventType,
-                    idOrganization = x.IdOrganization
+                    idOrganization = x.IdOrganization,
+                    image = x.ImagenEvento
                 }).ToListAsync();
                 if (events != null)
                 {
@@ -94,7 +95,8 @@ namespace SereApi.Controllers
         // POST: api/Events
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Event>> PostEvent( String name, DateTime date, String description, string img)
+        public async Task<IActionResult> PostEvent([FromForm] EventeFile eventFile)
+
         {
             Response response = new();
             if (_context.Events == null)
@@ -103,12 +105,29 @@ namespace SereApi.Controllers
                 return NotFound(response);
             }
             Event e = new();
-            e.NameEvent = name;
-            e.DateEvent = date;
-            e.DescriptionEvent = description;
-            e.ImagenEvento = img;
-
-
+            e.NameEvent = eventFile.name;
+            e.DateEvent = eventFile.date;
+            e.DescriptionEvent = eventFile.description;
+            e.IdEventType = 1;
+            e.IdOrganization = 2;
+            e.ObjectiveEvent = 3;
+            if (eventFile.file != null)
+            {
+                string strFileExtension = Path.GetExtension(eventFile.file.FileName);
+                var myUniqueFileName = string.Format(@"{0}{1}", Guid.NewGuid(),strFileExtension);
+                string p = Path.Combine(Directory.GetCurrentDirectory(), "Files",myUniqueFileName);
+                //string path = Path.Combine(Server.MapPath("~/Images/Mensual/"), fileName);
+               
+                using (var fs = new FileStream(p, FileMode.Create))
+                {
+                    await eventFile.file.CopyToAsync(fs);
+                    e.ImagenEvento = p;
+                }
+            }
+            else
+            {
+                e.ImagenEvento = null;
+            }
             _context.Events.Add(e);
             await _context.SaveChangesAsync();
             response.Success = true;

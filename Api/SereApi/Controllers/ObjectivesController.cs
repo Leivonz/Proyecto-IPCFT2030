@@ -137,6 +137,7 @@ namespace SereApi.Controllers
             await _context.SaveChangesAsync();
             response.Success = true;
             response.Message = "Succesfuly saved";
+            response.Data = o;
             return Ok(response);
         }
 

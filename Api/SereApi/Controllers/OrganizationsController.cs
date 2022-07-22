@@ -144,7 +144,9 @@ namespace SereApi.Controllers
 
             _context.Organizations.Add(Org);
             await _context.SaveChangesAsync();
-
+            response.Success = true;
+            response.Message = "Succesfuly saved";
+            response.Data = Org;
             return Ok(response);
         }
 

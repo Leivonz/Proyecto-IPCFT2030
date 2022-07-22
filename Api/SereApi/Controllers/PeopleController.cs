@@ -15,7 +15,12 @@ namespace SereApi.Controllers
     [ApiController]
     public class PeopleController : ControllerBase
     {
-        private readonly SereDbContext _context = new();
+        private readonly SereDbContext _context;
+
+        public PeopleController(SereDbContext context)
+        {
+            _context = context;
+        }
 
         // GET: api/People
         [HttpGet]
