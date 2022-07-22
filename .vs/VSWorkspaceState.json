@@ -5,6 +5,6 @@
     "\\Api\\SereApi",
     "\\Api\\SereApi\\Controllers"
   ],
-  "SelectedNode": "\\Api\\SereApi\\Controllers\\LoginController.cs",
+  "SelectedNode": "\\Api\\SereApi\\Controllers\\EventsController.cs",
   "PreviewInSolutionExplorer": false
 }

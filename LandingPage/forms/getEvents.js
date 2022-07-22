@@ -1,22 +1,34 @@
-// let data = `?titulo=${document.getElementById("TituloEvento").value}
-//     &descripcion=${document.getElementById("descrEvento").value}
-//     &fecha=${document.getElementById("FechaEvento").value}
-//     &imagen=${document.getElementById("imagenEvento").value}
-//     `;
-//     const contenedor = document.getElementById('cualquiercosa')
+javascript 
+window.onload = function () {
+  let API = "https://localhost:7146/api/Events";
+  fetch(API)
+    .then((response) => response.json())
+    //.then(data => showData(data))
+    .then((data) => {
+      console.log(data.data)
+      const events = data.data
+      let body = ''
+      events.forEach(element => {
+         body += `<p>${element.id}</p><p>${element.name}</p><p>${element.date}</p><p>${element.description}</p>`
+      });
+      // const parsedData = JSON.parse(data);
+      // let body = "";
+      // // body += `<p>${parsedData.id}</p><p>${parsedData.name}</p><p>${parsedData.date}</p><p>${parsedData.description}</p>`
+      // body += data;
 
-let API = "https://localhost:7146/api/Events";
-fetch(API)
-  .then(response => response.text())
-  .then(data => showData(data))
-  .catch(error => console.log(error));
+      document.getElementById("data").innerHTML = body;
+      // console.log(parsedData);
 
+    })
+    .catch((error) => console.log(error));
 
-const showData = (data) => {
-  JSON.parse(data)
-  let body = ''
-    body += `<p>${data.id}</p><p>${data.name}</p><p>${data.date}</p><p>${data.description}</p>`
+  const showData = (data) => {
+    const parsedData = JSON.parse(data);
+    let body = "";
+    // body += `<p>${parsedData.id}</p><p>${parsedData.name}</p><p>${parsedData.date}</p><p>${parsedData.description}</p>`
+    body += data;
 
-
-  document.getElementById('data').innerHTML = body
+    document.getElementById("data").innerHTML = body;
+    console.log(parsedData);
+  };
 };

@@ -124,6 +124,7 @@ namespace SereApi.Controllers
             else
             {
                 e.ImagenEvento = null!;
+                
             }
             _context.Events.Add(e);
             await _context.SaveChangesAsync();
