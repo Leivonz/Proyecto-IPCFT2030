@@ -1,27 +1,24 @@
 function login() {
-  let form = document.forms["formulario"];
-  let fd = new FormData(form);
-  let data = `?pass=${document.getElementById("pass").value}
+    let data = `?pass=${document.getElementById("pass").value}
   &correo=${document.getElementById("correo").value}`;
-  console.log(data);
-  const API = "https://localhost:7146/api/Login";
+    const API = "https://localhost:7146/api/Login";
 
-  fetch(API + data, {
-    method: "post",
-    // headers: {
-    //   "Content-Type": "application/json",
-    // },
-  })
-    .then((res) => res.text())
-    .then((p) => {
-      if (p == "hola") {
-        window.location.href = "/LandingPage/Intranet/index.html";
-      } else if (p!= "hola") {
-        alert(
-          "Correo o contraseña incorrectos. Vuelva a ingresar sus credenciales"
-        );
-      }
-    });
+    fetch(API + data, {
+        method: "post",
+        // headers: {
+        //   "Content-Type": "application/json",
+        // },
+    })
+        .then((res) => res.text())
+        .then((p) => {
+            if (p == "hola") {
+                window.location.href = "/LandingPage/Intranet/index.html";
+            } else if (p != "hola") {
+                alert(
+                    "Correo o contraseña incorrectos. Vuelva a ingresar sus credenciales"
+                );
+            }
+        });
 }
 
 // var jwt = require('jwt-simple');
